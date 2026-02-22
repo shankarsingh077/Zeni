@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".ui.PlacementGalleryActivity">
+
+    <!-- ViewPager2 for image carousel with swipe support -->
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/placementPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Loading indicator -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:indeterminateTint="@android:color/white" />
+
+    <!-- Semi-transparent overlay for title -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="#80000000"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="16dp">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Top Placements - GEHU Bhimtal"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Close button (top-right corner) -->
+        <ImageButton
+            android:id="@+id/closeButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/circle_button_background"
+            android:contentDescription="Close"
+            android:padding="10dp"
+            android:src="@drawable/ic_close"
+            android:tint="@android:color/white" />
+
+    </LinearLayout>
+
+    <!-- Page indicator dots at bottom -->
+    <LinearLayout
+        android:id="@+id/indicatorContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="32dp"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:background="#40000000" />
+
+    <!-- Page counter text -->
+    <TextView
+        android:id="@+id/pageCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="32dp"
+        android:background="#80000000"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="6dp"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        tools:text="1 / 5" />
+
+</FrameLayout>

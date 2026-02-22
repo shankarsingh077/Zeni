@@ -1,0 +1,117 @@
+{
+  "campus": "bhimtal",
+  "tours": [
+    {
+      "id": "admin_office",
+      "name": "Admin Office",
+      "aliases": ["admin office", "administration office", "administration", "admin block", "admin"],
+      "url": "https://my.matterport.com/show/?m=XYLCBi8upfk&ss=34&sr=,.33",
+      "description": "Administrative office at GEHU Bhimtal main block"
+    },
+    {
+      "id": "admission_office",
+      "name": "Admission Office",
+      "aliases": ["admission office", "admission", "admissions", "admission cell"],
+      "url": "https://my.matterport.com/show/?m=XYLCBi8upfk&ss=55&sr=-.31,.98",
+      "description": "Admission office for new student enquiries and admissions"
+    },
+    {
+      "id": "classroom",
+      "name": "Classroom",
+      "aliases": ["classroom", "class room", "class", "classes", "lecture room"],
+      "url": "https://my.matterport.com/show/?m=XYLCBi8upfk&ss=96&sr=.01,-1.18",
+      "description": "Modern classroom facility at GEHU Bhimtal"
+    },
+    {
+      "id": "computer_lab",
+      "name": "Computer Lab",
+      "aliases": ["computer lab", "computer laboratory", "comp lab", "computing lab", "pc lab", "computer centre"],
+      "url": "https://my.matterport.com/show/?m=XYLCBi8upfk&ss=22&sr=-1.63,-1.33",
+      "description": "State-of-the-art computer laboratory"
+    },
+    {
+      "id": "conference_hall",
+      "name": "Conference Hall",
+      "aliases": ["conference hall", "conference room", "meeting hall", "conference"],
+      "url": "https://my.matterport.com/show/?m=XYLCBi8upfk&ss=27&sr=-1.54,-1",
+      "description": "Conference hall for meetings and presentations"
+    },
+    {
+      "id": "library",
+      "name": "Library",
+      "aliases": ["library", "reading room", "book library", "central library"],
+      "url": "https://my.matterport.com/show/?m=XYLCBi8upfk&ss=130&sr=-.18,-.63",
+      "description": "Central library with extensive book collection"
+    },
+    {
+      "id": "civil_lab",
+      "name": "Civil Lab",
+      "aliases": ["civil lab", "civil engineering lab", "civil laboratory"],
+      "url": "https://my.matterport.com/show/?m=nTZvapxQPCv&ss=5&sr=-.61,-.79",
+      "description": "Civil Engineering laboratory"
+    },
+    {
+      "id": "thermodynamics_lab",
+      "name": "Thermodynamics Lab",
+      "aliases": ["thermodynamics lab", "thermo lab", "thermodynamics laboratory", "thermal lab"],
+      "url": "https://my.matterport.com/show/?m=nTZvapxQPCv&ss=22&sr=-2.66,-.8",
+      "description": "Thermodynamics laboratory for mechanical engineering"
+    },
+    {
+      "id": "central_instrumentation",
+      "name": "Central Instrumentation Room",
+      "aliases": ["central instrumentation room", "instrumentation room", "instrumentation lab", "cir"],
+      "url": "https://my.matterport.com/show/?m=8hBjpGW6QCB&ss=12&sr=-2.77,-.72",
+      "description": "Central instrumentation facility"
+    },
+    {
+      "id": "nursing_department",
+      "name": "Nursing Department",
+      "aliases": ["nursing department", "nursing", "nursing dept", "nursing block", "bsc nursing"],
+      "url": "https://my.matterport.com/show/?m=SzCnt2CKgUb&ss=1&sr=,-.52",
+      "description": "Nursing department with practical training facilities"
+    },
+    {
+      "id": "lecture_theatre",
+      "name": "Lecture Theatre",
+      "aliases": ["lecture theatre", "lecture theater", "lt", "lecture hall", "auditorium"],
+      "url": "https://my.matterport.com/show/?m=Uk7FLNqWpRw&ss=5&sr=-3.08,.59",
+      "description": "Large lecture theatre for classes and events"
+    },
+    {
+      "id": "seminar_hall",
+      "name": "Seminar Hall",
+      "aliases": ["seminar hall", "seminar room", "seminar"],
+      "url": "https://my.matterport.com/show/?m=KbVsit7hLFv&ss=1&sr=-.03,.61",
+      "description": "Seminar hall for workshops and conferences"
+    },
+    {
+      "id": "cafeteria",
+      "name": "Cafeteria",
+      "aliases": ["cafeteria", "canteen", "food court", "mess", "cafe"],
+      "url": "https://my.matterport.com/show/?m=4ypv3cZryiP",
+      "description": "Campus cafeteria and food court"
+    },
+    {
+      "id": "gymnasium",
+      "name": "Gymnasium",
+      "aliases": ["gymnasium", "gym", "fitness center", "fitness centre", "workout"],
+      "url": "https://my.matterport.com/show/?m=A6wjmd8Cyb7",
+      "description": "Fully equipped gymnasium and fitness center"
+    },
+    {
+      "id": "boys_hostel",
+      "name": "Boys Hostel",
+      "aliases": ["boys hostel", "boy hostel", "male hostel", "boys accommodation", "boys dorm"],
+      "url": "https://my.matterport.com/show/?m=KJMpfKPKTHF",
+      "description": "Boys hostel accommodation"
+    },
+    {
+      "id": "girls_hostel",
+      "name": "Girls Hostel",
+      "aliases": ["girls hostel", "girl hostel", "female hostel", "girls accommodation", "girls dorm", "ladies hostel"],
+      "url": "https://my.matterport.com/show/?m=R9cnyJ5dGBU",
+      "description": "Girls hostel accommodation"
+    }
+  ]
+}

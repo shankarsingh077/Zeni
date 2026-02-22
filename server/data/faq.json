@@ -1,0 +1,416 @@
+[
+  {
+    "id": "1",
+    "question": "When was Graphic Era Hill University, Bhimtal established?",
+    "answer": "The university was established in 2011 as part of the Graphic Era Educational Society's initiative to extend quality professional education to the hilly regions of Uttarakhand.",
+    "category": "about"
+  },
+  {
+    "id": "2",
+    "question": "Can you provide details about popular programs like B Tech, MBA, BBA, BCA, and B Pharm?",
+    "answer": "The B Tech programs focus on core engineering principles along with specialized tracks such as Artificial Intelligence, Cyber Security, and Data Science, often offering Honours specializations. The MBA program is designed to build leadership and management skills through various specializations. BBA and BCA courses emphasize foundational business and computer application skills, while B Pharm provides comprehensive training in pharmaceutical sciences with extensive practical laboratory experience.",
+    "category": "courses"
+  },
+  {
+    "id": "3",
+    "question": "What teaching methodologies are employed at the university?",
+    "answer": "The university employs innovative teaching methodologies such as case studies, simulations, hands on laboratory sessions, group discussions, and project based learning. These approaches ensure that students gain both theoretical understanding and practical experience.",
+    "category": "academics"
+  },
+  {
+    "id": "4",
+    "question": "Which entrance exams are accepted for admission?",
+    "answer": "The university accepts various entrance exam scores, including the Graphic Era Common Entrance Test (GECET), JEE Main for B Tech programs, and national level management entrance exams like CAT, MAT, XAT, CMAT, and NMAT for MBA admissions. Scores from CUET and other relevant exams are also considered for specific programs.",
+    "category": "admission"
+  },
+  {
+    "id": "5",
+    "question": "What hostel facilities are available?",
+    "answer": "The university provides separate hostel accommodations for boys and girls with various room sharing options, including air conditioned and non air conditioned rooms. Hostels are equipped with essential amenities, mess facilities, Wi Fi, and round the clock security measures such as CCTV surveillance.",
+    "category": "hostel"
+  },
+  {
+    "id": "6",
+    "question": "What sports facilities are available on campus?",
+    "answer": "The campus offers extensive sports facilities including outdoor grounds for football, cricket, volleyball and basketball, as well as indoor facilities for table tennis, badminton, billiards, and chess. Regular tournaments and an active sports committee promote a healthy competitive spirit.",
+    "category": "facilities"
+  },
+  {
+    "id": "7",
+    "question": "Which top companies recruit from the university?",
+    "answer": "Recruitment drives feature leading companies including Amazon, Uber, TCS, American Express, Google, Microsoft, Deloitte, Accenture, Infosys, Wipro, Capgemini, and many more, reflecting strong industry confidence in the university's graduates.",
+    "category": "placements"
+  },
+  {
+    "id": "8",
+    "question": "Is placement training provided to students?",
+    "answer": "Yes, the university offers comprehensive placement training from the first day. This includes workshops, resume building sessions, mock interviews, and industry specific talks designed to prepare students for competitive recruitment processes.",
+    "category": "placements"
+  },
+  {
+    "id": "9",
+    "question": "Does the university have international collaborations or exchange programs?",
+    "answer": "Yes, Graphic Era Hill University has established over 25 international collaborations with institutions in countries such as the USA, UK, France, Germany, and others. These partnerships offer opportunities for internships, exchange programs, dual degree options, and credit transfer programs.",
+    "category": "international"
+  },
+  {
+    "id": "10",
+    "question": "What are the application fees for admissions?",
+    "answer": "The application fee is typically around Rs 1500 for all courses. Detailed information on fee payment methods and deadlines is available on the university's official admission portal.",
+    "category": "admission"
+  },
+  {
+    "id": "11",
+    "question": "How does the university support start up ventures and entrepreneurship?",
+    "answer": "The university fosters innovation through dedicated incubation centers, mentorship programs, and strong industry partnerships. These initiatives provide resources, guidance, and funding opportunities for students and alumni looking to launch their own start up ventures.",
+    "category": "entrepreneurship"
+  },
+  {
+    "id": "12",
+    "question": "How can prospective students contact the university for more information?",
+    "answer": "You can Contact the Admission Cell . The campus is located at SatTal Road, Bhimtal, Nainital, Uttarakhand. An online enquiry form is also available on the official website.",
+    "category": "contact"
+  },
+  {
+    "id": "13",
+    "question": "What is the journey of Graphic Era?",
+    "answer": "Graphic Era began in 1993 as a computer training center founded by Prof. Dr. Kamal Ghanshala. In 1998, it became the Graphic Era Institute of Technology. In 2008, it was granted Deemed-to-be University status. Graphic Era Hill University was established in 2011. In 2015, GEU earned NAAC A grade. In 2022, GEU achieved NAAC A+ accreditation. In 2025, GEU was ranked 48 among India's top universities by NIRF.",
+    "category": "about"
+  },
+  {
+    "id": "14",
+    "question": "Who is Prof. Kamal Ghanshala and what is his contribution to Graphic Era?",
+    "answer": "Professor Doctor Kamal Ghanshala is the visionary Founder-President of the Graphic Era Group of Institutions. He holds a Doctorate in Computer Science and began his journey by establishing the Graphic Era Computer Centre in 1993. Under his leadership, it evolved into Graphic Era Institute of Technology in 1997, attained Deemed-to-be University status in 2008, and expanded with Graphic Era Hill University in 2011. He was conferred the Visionary Edupreneur of India Award 2017 by the Former President of India Mr. Pranab Mukherjee.",
+    "category": "about"
+  },
+  {
+    "id": "15",
+    "question": "What is the difference between Graphic Era Deemed to be University and Graphic Era Hill University?",
+    "answer": "Graphic Era Deemed to be University (GEU) was granted Deemed status in 2008 and is located in Dehradun. It is recognized by the Central Government. Graphic Era Hill University (GEHU), established in 2011, is a private state university recognized by the State Government with campuses in Dehradun, Bhimtal, and Haldwani. Both operate under the Graphic Era group but have different legal statuses.",
+    "category": "about"
+  },
+  {
+    "id": "16",
+    "question": "What is Graphic Era Institute of Medical Sciences (GEIMS)?",
+    "answer": "Graphic Era Institute of Medical Sciences is a premier medical college under the Graphic Era Group. It houses the state-of-the-art Graphic Era Hospital, an 850-bedded facility equipped with advanced medical technology. It offers courses in MBBS, Paramedical Sciences, B.Sc Nursing, and Hospital Administration. It is empaneled under CGHS, ECHS, SGHS Golden Cards, and ESI.",
+    "category": "medical"
+  },
+  {
+    "id": "17",
+    "question": "In which cities are the campuses of Graphic Era Hill University located?",
+    "answer": "Graphic Era Hill University has campuses in Dehradun, Bhimtal, and Haldwani.",
+    "category": "campus"
+  },
+  {
+    "id": "18",
+    "question": "What is the mission of Graphic Era Hill University?",
+    "answer": "Graphic Era Hill University aims to foster academic excellence, nurture creativity, address global challenges, and equip students with the skills and knowledge to shape the future.",
+    "category": "about"
+  },
+  {
+    "id": "19",
+    "question": "What are the key highlights and facilities of the Dehradun Campus?",
+    "answer": "The Dehradun Campus is located in the cantonment area, along the Rajaji National Park, offering a panoramic view of the Shivalik Hills. It is fully equipped with state-of-the-art computer centres and labs, temperature regulated classrooms, lecture theatres, seminar halls, accommodation, medical facilities, and its own radio station.",
+    "category": "campus_dehradun"
+  },
+  {
+    "id": "20",
+    "question": "What are the key highlights and facilities of the Bhimtal Campus?",
+    "answer": "The Bhimtal Campus is located at the Kumaon foothills of the outer Himalayas, amidst lush green tree cover along the Sattal Road. It has been recognized as the 11th most beautiful campus in the country by Storypick. It includes academic facilities, laboratories, libraries, administrative offices, student accommodation, Open Air Theatre, cafeteria, play fields, and fully equipped lecture theatres. The nearest railway station is Kathgodam, 27 kilometers away. Bhimtal is approximately 300 kilometers from Delhi and 16 kilometers from Nainital.",
+    "category": "campus_bhimtal"
+  },
+  {
+    "id": "21",
+    "question": "What are the key features of the Haldwani Campus?",
+    "answer": "The Haldwani Campus is situated in the vibrant and largest commercial market of the state, known as the gateway to Kumaon. It offers courses in engineering, science, technology, business, management, hospitality, and humanities. The campus is a day boarding campus without hostel facilities, but provides bus transportation from Rudrapur, Kiccha, Ramnagar, Bazpur, Sitarganj, Kaladhungi, Dineshpur, Gularbhoj, and multiple points within Haldwani city.",
+    "category": "campus_haldwani"
+  },
+  {
+    "id": "22",
+    "question": "What courses are offered at Graphic Era Hill University Bhimtal campus?",
+    "answer": "Bhimtal campus offers: B.Tech in CSE, CSE Honours with AI/ML and Cyber Security specializations, Civil Engineering, Mechanical Engineering with Electric Vehicle and Mechatronics specializations, ECE with Drone Technology and VLSI specializations. Also BCA, BCA Honours in AI and Data Science, BCA Honours in Cybersecurity, MCA, MCA with AI and Data Science. BBA, B.Com Honours, B.Com with ACCA UK, MBA. B.Sc Nursing and B.Pharma. Diploma in CSE, Civil, and Mechanical Engineering.",
+    "category": "courses_bhimtal"
+  },
+  {
+    "id": "23",
+    "question": "Who is the President of Graphic Era Hill University?",
+    "answer": "The President of Graphic Era Hill University is Professor Doctor Kamal Ghanshala, who holds a Doctor of Philosophy in Computer Science and is the Founder of the Graphic Era Group.",
+    "category": "leadership"
+  },
+  {
+    "id": "24",
+    "question": "Who is the Director of Graphic Era Hill University Haldwani campus?",
+    "answer": "The Director of Graphic Era Hill University Haldwani campus is Professor Doctor M. C. Lohani.",
+    "category": "leadership"
+  },
+  {
+    "id": "25",
+    "question": "What is Graphic Era Hill University Bhimtal?",
+    "answer": "Graphic Era Hill University, located in Bhimtal, Uttarakhand, is a premier institution known for quality education, innovative teaching methodologies, and cutting-edge technology integration. It is recognized as Uttarakhand's First AI Enabled Campus. The campus is ranked among the top 20 most beautiful college campuses in India by StoryPick and was built in just six months amidst the serene hills and lakes.",
+    "category": "about_bhimtal"
+  },
+  {
+    "id": "26",
+    "question": "Is there a provision for provisional admission?",
+    "answer": "Yes, provisional admission is offered for candidates awaiting final examination results. Students taking admission in undergraduate courses can proceed based on 10th results fulfilling basic criteria. Students taking admission in postgraduate courses need to fill an undertaking mentioning the minimum criteria required. Final admission is confirmed after verification of original documents.",
+    "category": "admission"
+  },
+  {
+    "id": "27",
+    "question": "Are there education loan options available for students?",
+    "answer": "Yes, students have access to education loans from nationalized and private banks, with several financial institutions and platforms recognizing the university. These loans offer competitive interest rates and flexible repayment options. The required documents from the university are provided accordingly.",
+    "category": "fees"
+  },
+  {
+    "id": "28",
+    "question": "What transportation options are available for day scholars in Bhimtal campus?",
+    "answer": "The university offers dedicated college bus services from Nainital, Bhowali, Naukuchiyatal, Haldwani as well as city bus facilities from Bhimtal and nearby areas, ensuring convenient and reliable transportation for day scholars.",
+    "category": "transport_bhimtal"
+  },
+  {
+    "id": "29",
+    "question": "What are the accreditations of Graphic Era Deemed to be University?",
+    "answer": "GEU accreditations include: UGC (University Grants Commission), MHRD (Ministry of Human Resource Development), AICTE (All India Council For Technical Education), NBA (National Board of Accreditation), NAAC A+ grade, NIRF rankings. GEU is the First and Only University in top 30 to receive PLATINUM Engineering and Diamond Management ratings by QS I-GAUGE. Also approved by Indian Medical Association and Nursing Council of India. Has Technology Business Incubator from Department of Science and Technology.",
+    "category": "accreditation"
+  },
+  {
+    "id": "30",
+    "question": "What are the accreditations of Graphic Era Hill University?",
+    "answer": "GEHU accreditations include: UGC (University Grants Commission), MHRD (Ministry of Human Resource Development). Pharmacy is approved by Pharmacy Council of India (PCI). Law is approved by Bar Council of India (BCI). Agriculture approval from ICAR is under process.",
+    "category": "accreditation"
+  },
+  {
+    "id": "31",
+    "question": "How do I apply for admission to GEHU Bhimtal?",
+    "answer": "You can apply online by visiting www.gehu.ac.in or by contacting the campus directly at 8126107820. You can also apply offline by visiting the campus. Fill out the application form, upload necessary documents, and pay an application fee of Rs 1500. Students can proceed with admission for undergraduate programs based on 10th results, and for postgraduate courses based on graduation degree or undertaking form.",
+    "category": "admission_process"
+  },
+  {
+    "id": "32",
+    "question": "What scholarships are available at Graphic Era Hill University?",
+    "answer": "GEHU scholarships include: 25% State Concession for hilly region students including Nepal, Academic scholarships, 5% yearly scholarship, 10% Girl Concession, 10% Loyalty Concession, 10% Single Parent Discount for covid cases, 7.5% for Current Student siblings and 5% for Alumni siblings, 5% Army Concession, 5% Single Parent concession, 5% Sports Concession. Skill Development Scholarship is available for Dehradun Campus only in B.Tech CSE. Regional diversity discount for all India candidates.",
+    "category": "scholarships"
+  },
+  {
+    "id": "33",
+    "question": "What scholarships are available at Graphic Era Deemed to be University?",
+    "answer": "GEU scholarships include: Academic scholarships, 5% yearly scholarship, 10% Girl Concession, 10% Loyalty Concession, 10% Single Parent Discount for covid cases, Sibling concessions 7.5% for Current Student and 5% for Alumni, 5% Army Concession, 5% Single Parent, 5% Sports Concession.",
+    "category": "scholarships"
+  },
+  {
+    "id": "34",
+    "question": "What is GECET scholarship exam?",
+    "answer": "GECET is the Graphic Era Common Entrance Test. Students not eligible for academic scholarships based on their 12th or graduation percentage can apply for scholarships through GECET. Scholarship slabs: 95% and above gets 100% scholarship on Tuition Fee, 90-95% gets 50%, 80-90% gets 30%, 70-80% gets 20%.",
+    "category": "scholarships"
+  },
+  {
+    "id": "35",
+    "question": "What is the fee structure for B.Tech CSE at Bhimtal campus?",
+    "answer": "The approximate yearly fee for B.Tech Computer Science and Engineering with included specializations at Bhimtal campus is Rs 2 lakh 20 thousand for state candidates and Rs 2 lakh 54 thousand for all India candidates.",
+    "category": "fees_bhimtal"
+  },
+  {
+    "id": "36",
+    "question": "What is the fee structure for B.Tech other branches at Bhimtal campus?",
+    "answer": "The approximate yearly fee for B.Tech other branches like Civil, Mechanical, ECE at Bhimtal campus is Rs 1 lakh 72 thousand for state candidates and Rs 2 lakh 15 thousand for all India candidates.",
+    "category": "fees_bhimtal"
+  },
+  {
+    "id": "37",
+    "question": "What is the fee structure for BCA at Bhimtal campus?",
+    "answer": "The approximate yearly fee for BCA at Bhimtal campus is Rs 1 lakh 18 thousand for state candidates and Rs 1 lakh 38 thousand for all India candidates. Students not having Maths as a subject in 12th have to pay additional Rs 5000 per semester for two semesters as bridge course fee.",
+    "category": "fees_bhimtal"
+  },
+  {
+    "id": "38",
+    "question": "What is the fee structure for BCA AI and Data Science at Bhimtal campus?",
+    "answer": "The approximate yearly fee for BCA Artificial Intelligence and Data Science at Bhimtal campus is Rs 1 lakh 26 thousand for state candidates and Rs 1 lakh 47 thousand for all India candidates. Students not having Maths in 12th pay additional Rs 5000 per semester for two semesters as bridge course fee.",
+    "category": "fees_bhimtal"
+  },
+  {
+    "id": "39",
+    "question": "What is the fee structure for MBA at Bhimtal campus?",
+    "answer": "The approximate yearly fee for MBA at Bhimtal campus is Rs 2 lakh 19 thousand for state candidates and Rs 2 lakh 47 thousand for all India candidates.",
+    "category": "fees_bhimtal"
+  },
+  {
+    "id": "40",
+    "question": "What is the fee structure for BBA at Bhimtal campus?",
+    "answer": "The approximate yearly fee for BBA at Bhimtal campus is Rs 1 lakh 28 thousand for state candidates and Rs 1 lakh 39 thousand for all India candidates.",
+    "category": "fees_bhimtal"
+  },
+  {
+    "id": "41",
+    "question": "What is the fee structure for B.Pharma at Bhimtal campus?",
+    "answer": "The approximate yearly fee for B.Pharma at Bhimtal campus is Rs 1 lakh 33 thousand for state candidates and Rs 1 lakh 52 thousand for all India candidates.",
+    "category": "fees_bhimtal"
+  },
+  {
+    "id": "42",
+    "question": "What is the fee structure for B.Sc Nursing at Bhimtal campus?",
+    "answer": "The approximate yearly fee for B.Sc Nursing at Bhimtal campus is Rs 1 lakh 42 thousand for state candidates and Rs 1 lakh 61 thousand for all India candidates.",
+    "category": "fees_bhimtal"
+  },
+  {
+    "id": "43",
+    "question": "What is the fee structure for B.Com Honours at Bhimtal campus?",
+    "answer": "The approximate yearly fee for B.Com Honours at Bhimtal campus is Rs 1 lakh 26 thousand for state candidates and Rs 1 lakh 38 thousand for all India candidates.",
+    "category": "fees_bhimtal"
+  },
+  {
+    "id": "44",
+    "question": "What is the fee structure for MCA at Bhimtal campus?",
+    "answer": "The approximate yearly fee for MCA at Bhimtal campus is Rs 1 lakh 40 thousand for state candidates and Rs 1 lakh 46 thousand for all India candidates.",
+    "category": "fees_bhimtal"
+  },
+  {
+    "id": "45",
+    "question": "What is the fee structure for Diploma at Bhimtal campus?",
+    "answer": "The approximate yearly fee for Diploma courses in Computer Science, Civil, and Mechanical Engineering at Bhimtal campus is Rs 84 thousand.",
+    "category": "fees_bhimtal"
+  },
+  {
+    "id": "46",
+    "question": "What are the hostel fees and facilities?",
+    "answer": "Hostels are common for GEHU Dehradun and GEU campuses. Room options include Single, Double, and Triple sharing in both AC and Non-AC configurations. Amenities include furnished rooms with bed, study table, chair, wardrobe, Wi-Fi, 24/7 power backup and water supply, mess and dining facilities, common rooms and reading halls. Hostel Security Deposit is Rs 10000 or Rs 5000 which is refundable after course completion. One time consumable and utility charges are Rs 9000.",
+    "category": "hostel"
+  },
+  {
+    "id": "47",
+    "question": "Does Haldwani campus have hostel facilities?",
+    "answer": "No, Graphic Era Hill University's Haldwani campus operates as a day boarding campus, and residential or hostel facilities are not available at this location. However, the university provides convenient bus transportation from Rudrapur, Kiccha, Ramnagar, Bazpur, Sitarganj, Kaladhungi, Dineshpur, Gularbhoj, and multiple points within Haldwani city.",
+    "category": "hostel_haldwani"
+  },
+  {
+    "id": "48",
+    "question": "What is the fee structure for B.Tech CSE at Haldwani campus?",
+    "answer": "The approximate yearly fee for B.Tech CSE with specializations at Haldwani campus is Rs 2 lakh 77 thousand for state candidates and Rs 3 lakh 27 thousand for all India candidates. Regional diversity discount of Rs 14500 per semester is also provided.",
+    "category": "fees_haldwani"
+  },
+  {
+    "id": "49",
+    "question": "What is the fee structure for BCA at Haldwani campus?",
+    "answer": "The approximate yearly fee for BCA at Haldwani campus is Rs 1 lakh 18 thousand for state candidates and Rs 1 lakh 37 thousand for all India candidates. Regional diversity discount of Rs 5000 per semester is provided. Students not having Maths in 12th pay additional Rs 5000 per semester for two semesters as bridge course fee.",
+    "category": "fees_haldwani"
+  },
+  {
+    "id": "50",
+    "question": "What is the fee structure for MBA at Haldwani campus?",
+    "answer": "The approximate yearly fee for MBA at Haldwani campus is Rs 2 lakh 36 thousand for state candidates and Rs 2 lakh 70 thousand for all India candidates. Regional diversity discount of Rs 15500 per semester is provided.",
+    "category": "fees_haldwani"
+  },
+  {
+    "id": "51",
+    "question": "What is the fee structure for BBA at Haldwani campus?",
+    "answer": "The approximate yearly fee for BBA at Haldwani campus is Rs 1 lakh 33 thousand for state candidates and Rs 1 lakh 67 thousand for all India candidates. Regional diversity discount of Rs 12500 per semester is provided.",
+    "category": "fees_haldwani"
+  },
+  {
+    "id": "52",
+    "question": "What is the fee structure for B.Com Honours at Haldwani campus?",
+    "answer": "The approximate yearly fee for B.Com Honours at Haldwani campus is Rs 1 lakh 18 thousand for state candidates and Rs 1 lakh 34 thousand for all India candidates. Regional diversity discount of Rs 7000 per semester is provided.",
+    "category": "fees_haldwani"
+  },
+  {
+    "id": "53",
+    "question": "What is the fee structure for MCA at Haldwani campus?",
+    "answer": "The approximate yearly fee for MCA at Haldwani campus is Rs 1 lakh 42 thousand for state candidates and Rs 1 lakh 64 thousand for all India candidates. Regional diversity discount of Rs 7500 per semester is provided.",
+    "category": "fees_haldwani"
+  },
+  {
+    "id": "54",
+    "question": "What is the fee structure for Hotel Management at Haldwani campus?",
+    "answer": "The approximate yearly fee for Bachelor in Hotel Management at Haldwani campus is Rs 1 lakh 18 thousand for state candidates and Rs 1 lakh 61 thousand for all India candidates. Regional diversity discount of Rs 7000 per semester is provided.",
+    "category": "fees_haldwani"
+  },
+  {
+    "id": "55",
+    "question": "What is the fee structure for Journalism at Haldwani campus?",
+    "answer": "The approximate yearly fee for Bachelor of Arts in Journalism and Mass Communication at Haldwani campus is Rs 1 lakh 15 thousand for state candidates and Rs 1 lakh 33 thousand for all India candidates. Regional diversity discount of Rs 5000 per semester is provided.",
+    "category": "fees_haldwani"
+  },
+  {
+    "id": "56",
+    "question": "What is the fee structure for Animation and Gaming at Haldwani campus?",
+    "answer": "The approximate yearly fee for B.Sc Animation and Gaming at Haldwani campus is Rs 1 lakh 40 thousand for state candidates and Rs 1 lakh 53 thousand for all India candidates. Regional diversity discount of Rs 11500 per semester is provided.",
+    "category": "fees_haldwani"
+  },
+  {
+    "id": "57",
+    "question": "What is the 100% Tuition Fee Waiver for Diploma?",
+    "answer": "There is a special admission opportunity with 100% Tuition Fee Waiver available exclusively at Bhimtal Campus for Diploma programs. Available branches are Diploma in Computer Science, Civil Engineering, and Mechanical Engineering. Students who have scored more than 60% in their qualifying examination are eligible for this full tuition fee waiver.",
+    "category": "scholarships_diploma"
+  },
+  {
+    "id": "58",
+    "question": "What is the 25% State Concession?",
+    "answer": "State Concession is a special fee concession for candidates from hilly regions of India. A direct 25% concession is provided to students carrying either domicile certificate or students completing 10th and 12th from their respective states. Nepal students are also included in this concession.",
+    "category": "scholarships"
+  },
+  {
+    "id": "59",
+    "question": "What is the Diversity Program Scholarship?",
+    "answer": "Diversity Program Scholarship (DPS) is a special fee concession applicable to candidates from All India Category, meaning non-hilly regions. This provides regional diversity discount to encourage students from across India.",
+    "category": "scholarships"
+  },
+  {
+    "id": "60",
+    "question": "What are the major institutions under Graphic Era?",
+    "answer": "The major institutions under the Graphic Era Group include: Graphic Era Deemed to be University in Dehradun, Graphic Era Hill University with campuses in Dehradun, Bhimtal, and Haldwani, Graphic Era Institute of Medical Sciences in Dehradun, and Graphic Era Global School in Dehradun. Together they offer programs in engineering, management, medical sciences, law, and school education.",
+    "category": "about"
+  },
+  {
+    "id": "61",
+    "question": "Who is the Chancellor of GEU?",
+    "answer": "Dr. Vijay Kumar Saraswat, a Padma Bhushan awardee and former Director General of DRDO, serves as the Chancellor of Graphic Era Deemed to be University. His illustrious career in defense research and academic policymaking brings immense credibility and strategic guidance to the university.",
+    "category": "leadership"
+  },
+  {
+    "id": "62",
+    "question": "What startup support does the university provide?",
+    "answer": "The Incubation Centre at Graphic Era provides infrastructure, mentorship, and seed funding to aspiring entrepreneurs. More than 100 startups have been launched by students, showcasing the university's commitment to fostering innovation and job creation. The university has a Technology Business Incubator given directly by the Department of Science and Technology, Government of India.",
+    "category": "entrepreneurship"
+  },
+  {
+    "id": "63",
+    "question": "What courses are offered at Haldwani campus?",
+    "answer": "Haldwani campus offers: B.Tech CSE with specializations, BCA, BCA AI and Data Science, MCA, BBA, MBA, B.Com Honours, Bachelor in Hotel Management, CCHM, Bachelor of Arts in Journalism and Mass Communication, B.Sc Animation and Gaming, M.Tech in Computer Science and Engineering.",
+    "category": "courses_haldwani"
+  },
+  {
+    "id": "64",
+    "question": "What modern courses are available at GEHU?",
+    "answer": "GEHU offers modern courses including Animation and Gaming, Fashion Designing, Product Design, User Experience and Interaction Design, Visual Arts, Law, Agriculture, and various other contemporary programs.",
+    "category": "courses"
+  },
+  {
+    "id": "65",
+    "question": "How is GEHU ranked digitally?",
+    "answer": "Graphic Era Hill University is recognized among the top 10 universities in digital initiatives by MHRD.",
+    "category": "rankings"
+  },
+  {
+    "id": "66",
+    "question": "What global exposure do MBA students get?",
+    "answer": "MBAs from Graphic Era Hill University have traveled to over 10 countries for global and career immersion programs.",
+    "category": "international"
+  },
+  {
+    "id": "67",
+    "question": "Who is the Director of Graphic Era Hill University Bhimtal campus?",
+    "answer": "The Director of Graphic Era Hill University Bhimtal campus is Professor Colonel A.K. Nair Retired.",
+    "category": "leadership"
+  },
+  {
+    "id": "68",
+    "question": "Who created the AI assistant?",
+    "answer": "The AI assistant has been developed by students of the B.Tech CSE (AI & ML) program, batch 2023–2027.",
+    "category": "ai_assistant"
+  },
+  {
+    "id": "69",
+    "question": "Who is the Chairman of Graphic Era  & Graphic era Hill University ?",
+    "answer": "Professor Doctor Kamal Ghanshala is the visionary Founder-President of the Graphic Era Group of Institutions. He holds a Doctorate in Computer Science and began his journey by establishing the Graphic Era Computer Centre in 1993. Under his leadership, it evolved into Graphic Era Institute of Technology in 1997, attained Deemed-to-be University status in 2008, and expanded with Graphic Era Hill University in 2011. He was conferred the Visionary Edupreneur of India Award 2017 by the Former President of India Mr. Pranab Mukherjee.",
+    "category": "leadership"
+  }
+]

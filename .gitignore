@@ -1,0 +1,143 @@
+# ============================================================
+# Zeni — Real-Time Voice AI
+# .gitignore — What NEVER goes to GitHub
+# ============================================================
+
+
+# ── 🔑 Secrets & Credentials (NEVER commit these) ──────────
+*-KEY.json
+*-key.json
+*-credentials.json
+!ZENI-TTS-KEY.example.json    # Safe template — this IS committed
+
+server/.env                   # Real env file with live secrets
+.env                          # Any root-level .env
+
+
+# ── 📦 Python ────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+
+# ── 🗄️ Runtime / Generated Data ──────────────────────────────
+server/data/chroma_db/        # Vector DB — auto-rebuilt on startup
+server/data/.faq_hash         # FAQ hash cache — auto-rebuilt
+server/data/settings.json     # Runtime personality state
+
+
+# ── 📁 Large Binary Files (use GitHub Releases instead) ──────
+*.apk
+base.apk
+*.aab
+
+# Media / Videos
+character video/
+"character video"/
+
+
+# ── 🤖 Decompiled / Third-Party App Code ─────────────────────
+robot_app_decompiled/
+robot_app_java/
+
+
+# ── 🤖 ML Model Weights ──────────────────────────────────────
+server/models/
+*.bin
+*.pt
+*.pth
+*.onnx
+*.gguf
+*.ggml
+
+
+# ── 📱 Android Build Outputs ─────────────────────────────────
+android/app/build/
+android/build/
+android/.gradle/
+android/local.properties
+android/captures/
+android/*.apk
+android/*.aab
+android/.cxx/
+
+# Android key/signing
+android/app/*.jks
+android/app/*.keystore
+*.keystore
+*.jks
+
+
+# ── 💻 Operating System ──────────────────────────────────────
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V8
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+desktop.ini
+
+# Linux
+*~
+
+
+# ── 🛠️ IDEs & Editors ────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+
+# JetBrains
+*.iml
+*.iws
+out/
+
+
+# ── 📝 Logs ──────────────────────────────────────────────────
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+# ── 🌐 Node (if any frontend tooling) ────────────────────────
+node_modules/
+.npm

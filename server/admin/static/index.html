@@ -1,0 +1,1275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zeni Admin Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #4f46e5;
+            --primary-dark: #4338ca;
+            --success: #10b981;
+            --danger: #ef4444;
+            --warning: #f59e0b;
+            --bg: #f3f4f6;
+            --card-bg: #ffffff;
+            --text: #1f2937;
+            --text-light: #6b7280;
+            --border: #e5e7eb;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+        }
+
+        /* Login Page */
+        .login-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .login-box {
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .login-box h1 {
+            text-align: center;
+            margin-bottom: 8px;
+            color: var(--primary);
+        }
+
+        .login-box p {
+            text-align: center;
+            color: var(--text-light);
+            margin-bottom: 24px;
+        }
+
+        .form-group {
+            margin-bottom: 16px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 6px;
+            font-weight: 500;
+            color: var(--text);
+        }
+
+        .form-group input, .form-group textarea, .form-group select {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            font-size: 14px;
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+
+        .form-group input:focus, .form-group textarea:focus, .form-group select:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: var(--primary-dark);
+        }
+
+        .btn-success {
+            background: var(--success);
+            color: white;
+        }
+
+        .btn-danger {
+            background: var(--danger);
+            color: white;
+        }
+
+        .btn-secondary {
+            background: var(--border);
+            color: var(--text);
+        }
+
+        .btn-block {
+            width: 100%;
+        }
+
+        .error-msg {
+            color: var(--danger);
+            font-size: 13px;
+            margin-top: 8px;
+            text-align: center;
+        }
+
+        /* Dashboard Layout */
+        .dashboard {
+            display: none;
+        }
+
+        .header {
+            background: var(--card-bg);
+            padding: 16px 24px;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header h1 {
+            font-size: 20px;
+            color: var(--primary);
+        }
+
+        .header-right {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .user-info {
+            color: var(--text-light);
+            font-size: 14px;
+        }
+
+        .main-content {
+            padding: 24px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        /* Tabs */
+        .tabs {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 24px;
+            background: var(--card-bg);
+            padding: 8px;
+            border-radius: 12px;
+        }
+
+        .tab-btn {
+            padding: 12px 24px;
+            border: none;
+            background: transparent;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--text-light);
+            transition: all 0.2s;
+        }
+
+        .tab-btn:hover {
+            background: var(--bg);
+        }
+
+        .tab-btn.active {
+            background: var(--primary);
+            color: white;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        /* Cards */
+        .card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 24px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .card-header h2 {
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        /* FAQ Table */
+        .faq-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .faq-table th, .faq-table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .faq-table th {
+            font-weight: 600;
+            color: var(--text-light);
+            font-size: 12px;
+            text-transform: uppercase;
+        }
+
+        .faq-table tr:hover {
+            background: var(--bg);
+        }
+
+        .faq-question {
+            font-weight: 500;
+            max-width: 300px;
+        }
+
+        .faq-answer {
+            color: var(--text-light);
+            font-size: 13px;
+            max-width: 400px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 500;
+            background: #e0e7ff;
+            color: var(--primary);
+        }
+
+        .actions {
+            display: flex;
+            gap: 8px;
+        }
+
+        .btn-sm {
+            padding: 6px 12px;
+            font-size: 12px;
+        }
+
+        /* Modal */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.5);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .modal-overlay.active {
+            display: flex;
+        }
+
+        .modal {
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 24px;
+            width: 90%;
+            max-width: 600px;
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .modal-header h3 {
+            font-size: 18px;
+        }
+
+        .modal-close {
+            background: none;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            color: var(--text-light);
+        }
+
+        .modal-footer {
+            display: flex;
+            justify-content: flex-end;
+            gap: 12px;
+            margin-top: 24px;
+        }
+
+        /* Photo Grid */
+        .photo-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 16px;
+        }
+
+        .photo-card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid var(--border);
+        }
+
+        .photo-card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .photo-card-info {
+            padding: 12px;
+        }
+
+        .photo-card-name {
+            font-weight: 500;
+            font-size: 14px;
+            margin-bottom: 8px;
+            word-break: break-all;
+        }
+
+        /* Upload Area */
+        .upload-area {
+            border: 2px dashed var(--border);
+            border-radius: 12px;
+            padding: 40px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .upload-area:hover {
+            border-color: var(--primary);
+            background: rgba(79, 70, 229, 0.05);
+        }
+
+        .upload-area input {
+            display: none;
+        }
+
+        .upload-icon {
+            font-size: 48px;
+            margin-bottom: 12px;
+        }
+
+        /* Search */
+        .search-box {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+
+        .search-box input {
+            flex: 1;
+            padding: 12px;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+
+        .search-box select {
+            padding: 12px;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            min-width: 150px;
+        }
+
+        /* Toast */
+        .toast {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            padding: 16px 24px;
+            border-radius: 8px;
+            color: white;
+            font-weight: 500;
+            transform: translateY(100px);
+            opacity: 0;
+            transition: all 0.3s;
+            z-index: 2000;
+        }
+
+        .toast.show {
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+        .toast.success {
+            background: var(--success);
+        }
+
+        .toast.error {
+            background: var(--danger);
+        }
+
+        /* Loading */
+        .loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+        }
+
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 4px solid var(--border);
+            border-top-color: var(--primary);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .faq-table {
+                display: block;
+                overflow-x: auto;
+            }
+
+            .tabs {
+                flex-wrap: wrap;
+            }
+
+            .search-box {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Login Page -->
+    <div class="login-container" id="loginPage">
+        <div class="login-box">
+            <h1>🤖 Zeni Admin</h1>
+            <p>Admission Cell Dashboard</p>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label>Username</label>
+                    <input type="text" id="loginUsername" placeholder="Enter username" required>
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" id="loginPassword" placeholder="Enter password" required>
+                </div>
+                <div class="error-msg" id="loginError"></div>
+                <button type="submit" class="btn btn-primary btn-block" style="margin-top: 16px;">
+                    Login
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Dashboard -->
+    <div class="dashboard" id="dashboard">
+        <header class="header">
+            <h1>🤖 Zeni Admin Dashboard</h1>
+            <div class="header-right">
+                <span class="user-info">Logged in as <strong>admin</strong></span>
+                <button class="btn btn-secondary btn-sm" onclick="logout()">Logout</button>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="tabs">
+                <button class="tab-btn active" onclick="switchTab('faqs')">📚 FAQs</button>
+                <button class="tab-btn" onclick="switchTab('placements')">🖼️ Placement Photos</button>
+                <button class="tab-btn" onclick="switchTab('settings')">⚙️ Settings</button>
+            </div>
+
+            <!-- FAQs Tab -->
+            <div class="tab-content active" id="tab-faqs">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Manage FAQs</h2>
+                        <div style="display: flex; gap: 12px;">
+                            <button class="btn btn-success" onclick="applyChanges()" id="applyChangesBtn">🔄 Apply Changes</button>
+                            <button class="btn btn-primary" onclick="openFaqModal()">+ Add FAQ</button>
+                        </div>
+                    </div>
+                    
+                    <div id="changesNotice" style="display: none; background: #fef3c7; border: 1px solid #f59e0b; border-radius: 8px; padding: 12px; margin-bottom: 16px;">
+                        ⚠️ <strong>Unsaved changes!</strong> Click "Apply Changes" to make your FAQ updates live in the AI assistant.
+                    </div>
+
+                    <div class="search-box">
+                        <input type="text" id="faqSearch" placeholder="Search FAQs..." oninput="filterFaqs()">
+                        <select id="categoryFilter" onchange="filterFaqs()">
+                            <option value="">All Categories</option>
+                        </select>
+                    </div>
+
+                    <div id="faqList">
+                        <div class="loading"><div class="spinner"></div></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Placements Tab -->
+            <div class="tab-content" id="tab-placements">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Placement Photos</h2>
+                    </div>
+
+                    <div class="upload-area" onclick="document.getElementById('photoUpload').click()">
+                        <input type="file" id="photoUpload" accept="image/*" onchange="uploadPhoto(this)">
+                        <div class="upload-icon">📤</div>
+                        <p>Click to upload a new placement photo</p>
+                        <p style="color: var(--text-light); font-size: 13px; margin-top: 8px;">
+                            Supported: JPEG, PNG, GIF, WEBP
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Current Photos</h2>
+                    </div>
+                    <div id="photoGrid" class="photo-grid">
+                        <div class="loading"><div class="spinner"></div></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Settings Tab -->
+            <div class="tab-content" id="tab-settings">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>AI Personality Settings</h2>
+                    </div>
+                    <div style="padding: 20px;">
+                        <p style="color: var(--text-light); margin-bottom: 20px;">
+                            Choose how Zeni responds to users. This setting syncs across all devices.
+                        </p>
+                        
+                        <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+                            <!-- Assistant Mode Card -->
+                            <div class="personality-card" id="card-assistant" onclick="setPersonality('assistant')" style="flex: 1; min-width: 280px; border: 2px solid var(--border); border-radius: 12px; padding: 20px; cursor: pointer; transition: all 0.2s;">
+                                <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
+                                    <div style="font-size: 32px;">🤖</div>
+                                    <div>
+                                        <h3 style="margin: 0;">Assistant Mode</h3>
+                                        <span style="font-size: 13px; color: var(--text-light);">Professional & Formal</span>
+                                    </div>
+                                </div>
+                                <ul style="color: var(--text-light); font-size: 14px; padding-left: 20px; margin: 0;">
+                                    <li>Clear, concise responses</li>
+                                    <li>Professional tone</li>
+                                    <li>No emotional expressions</li>
+                                    <li>Factual and direct</li>
+                                </ul>
+                            </div>
+                            
+                            <!-- Human Mode Card -->
+                            <div class="personality-card" id="card-human" onclick="setPersonality('human')" style="flex: 1; min-width: 280px; border: 2px solid var(--border); border-radius: 12px; padding: 20px; cursor: pointer; transition: all 0.2s;">
+                                <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
+                                    <div style="font-size: 32px;">😊</div>
+                                    <div>
+                                        <h3 style="margin: 0;">Human Mode</h3>
+                                        <span style="font-size: 13px; color: var(--text-light);">Warm & Expressive</span>
+                                    </div>
+                                </div>
+                                <ul style="color: var(--text-light); font-size: 14px; padding-left: 20px; margin: 0;">
+                                    <li>Natural, conversational tone</li>
+                                    <li>Expresses emotions (laughs, excitement)</li>
+                                    <li>Friendly and warm</li>
+                                    <li>Like talking to a helpful friend</li>
+                                </ul>
+                            </div>
+                            
+                            <!-- General Mode Card -->
+                            <div class="personality-card" id="card-general" onclick="setPersonality('general')" style="flex: 1; min-width: 280px; border: 2px solid var(--border); border-radius: 12px; padding: 20px; cursor: pointer; transition: all 0.2s;">
+                                <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
+                                    <div style="font-size: 32px;">💬</div>
+                                    <div>
+                                        <h3 style="margin: 0;">General Chat</h3>
+                                        <span style="font-size: 13px; color: var(--text-light);">Free AI Assistant</span>
+                                    </div>
+                                </div>
+                                <ul style="color: var(--text-light); font-size: 14px; padding-left: 20px; margin: 0;">
+                                    <li>No college data - pure AI</li>
+                                    <li>Talk about anything!</li>
+                                    <li>General knowledge & help</li>
+                                    <li>Like ChatGPT / free conversation</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div id="personalityStatus" style="margin-top: 20px; padding: 12px; background: var(--bg); border-radius: 8px; text-align: center;">
+                            Loading current setting...
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- FAQ Modal -->
+    <div class="modal-overlay" id="faqModal">
+        <div class="modal">
+            <div class="modal-header">
+                <h3 id="faqModalTitle">Add New FAQ</h3>
+                <button class="modal-close" onclick="closeFaqModal()">&times;</button>
+            </div>
+            <form id="faqForm">
+                <input type="hidden" id="faqId">
+                <div class="form-group">
+                    <label>Category</label>
+                    <select id="faqCategory" required onchange="handleCategoryChange()">
+                        <option value="">Select category</option>
+                        <!-- Categories populated dynamically -->
+                    </select>
+                </div>
+                <div class="form-group" id="customCategoryGroup" style="display: none;">
+                    <label>Custom Category Name</label>
+                    <input type="text" id="customCategoryInput" placeholder="Enter new category name (e.g., fees_dehradun)">
+                </div>
+                <div class="form-group">
+                    <label>Question</label>
+                    <textarea id="faqQuestion" rows="3" placeholder="Enter the question..." required></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Answer</label>
+                    <textarea id="faqAnswer" rows="5" placeholder="Enter the answer..." required></textarea>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" onclick="closeFaqModal()">Cancel</button>
+                    <button type="submit" class="btn btn-primary" id="faqSubmitBtn">Save FAQ</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Toast -->
+    <div class="toast" id="toast"></div>
+
+    <script>
+        // State
+        let authToken = localStorage.getItem('adminToken');
+        let allFaqs = [];
+        let allPhotos = [];
+
+        // API Base
+        const API_BASE = '/admin';
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            if (authToken) {
+                verifyAuth();
+            }
+        });
+
+        // Handle 401 - auto logout
+        function handleUnauthorized() {
+            localStorage.removeItem('adminToken');
+            authToken = null;
+            document.getElementById('loginPage').style.display = 'flex';
+            document.getElementById('dashboard').style.display = 'none';
+            showToast('Session expired. Please login again.', 'error');
+        }
+
+        // Auth Functions
+        async function verifyAuth() {
+            try {
+                const res = await fetch(`${API_BASE}/verify`, {
+                    headers: { 'Authorization': `Bearer ${authToken}` }
+                });
+                if (res.ok) {
+                    showDashboard();
+                    loadFaqs();
+                    loadPhotos();
+                    loadPersonalitySetting();
+                } else {
+                    handleUnauthorized();
+                }
+            } catch (e) {
+                console.error('Auth error:', e);
+                handleUnauthorized();
+            }
+        }
+
+        document.getElementById('loginForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const username = document.getElementById('loginUsername').value;
+            const password = document.getElementById('loginPassword').value;
+            const errorEl = document.getElementById('loginError');
+
+            try {
+                const res = await fetch(`${API_BASE}/login`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ username, password })
+                });
+
+                const data = await res.json();
+
+                if (res.ok && data.success) {
+                    authToken = data.token;
+                    localStorage.setItem('adminToken', authToken);
+                    showDashboard();
+                    loadFaqs();
+                    loadPhotos();
+                    loadPersonalitySetting();
+                    showToast('Login successful!', 'success');
+                } else {
+                    errorEl.textContent = data.detail || 'Invalid credentials';
+                }
+            } catch (e) {
+                errorEl.textContent = 'Connection error. Please try again.';
+            }
+        });
+
+        function logout() {
+            localStorage.removeItem('adminToken');
+            authToken = null;
+            document.getElementById('loginPage').style.display = 'flex';
+            document.getElementById('dashboard').style.display = 'none';
+            document.getElementById('loginUsername').value = '';
+            document.getElementById('loginPassword').value = '';
+        }
+
+        function showDashboard() {
+            document.getElementById('loginPage').style.display = 'none';
+            document.getElementById('dashboard').style.display = 'block';
+        }
+
+        // Tab Functions
+        function switchTab(tabName) {
+            document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+
+            document.querySelector(`[onclick="switchTab('${tabName}')"]`).classList.add('active');
+            document.getElementById(`tab-${tabName}`).classList.add('active');
+        }
+
+        // FAQ Functions
+        async function loadFaqs() {
+            try {
+                const res = await fetch(`${API_BASE}/faqs`, {
+                    headers: { 'Authorization': `Bearer ${authToken}` }
+                });
+                
+                if (res.status === 401) {
+                    handleUnauthorized();
+                    return;
+                }
+                
+                const data = await res.json();
+
+                if (data.success) {
+                    allFaqs = data.faqs;
+                    renderFaqs(allFaqs);
+                    updateCategoryFilter();
+                }
+            } catch (e) {
+                console.error('Error loading FAQs:', e);
+            }
+        }
+
+        function renderFaqs(faqs) {
+            const container = document.getElementById('faqList');
+
+            if (faqs.length === 0) {
+                container.innerHTML = '<p style="text-align:center;color:var(--text-light);padding:40px;">No FAQs found.</p>';
+                return;
+            }
+
+            container.innerHTML = `
+                <table class="faq-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Question</th>
+                            <th>Answer</th>
+                            <th>Category</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${faqs.map(faq => `
+                            <tr>
+                                <td>${faq.id}</td>
+                                <td class="faq-question">${escapeHtml(faq.question)}</td>
+                                <td class="faq-answer" title="${escapeHtml(faq.answer)}">${escapeHtml(faq.answer)}</td>
+                                <td><span class="badge">${faq.category}</span></td>
+                                <td class="actions">
+                                    <button class="btn btn-primary btn-sm" onclick='editFaq(${JSON.stringify(faq)})'>Edit</button>
+                                    <button class="btn btn-danger btn-sm" onclick="deleteFaq('${faq.id}')">Delete</button>
+                                </td>
+                            </tr>
+                        `).join('')}
+                    </tbody>
+                </table>
+            `;
+        }
+
+        function updateCategoryFilter() {
+            const categories = [...new Set(allFaqs.map(f => f.category))].sort();
+            const select = document.getElementById('categoryFilter');
+            select.innerHTML = '<option value="">All Categories</option>' +
+                categories.map(c => `<option value="${c}">${c}</option>`).join('');
+        }
+
+        function filterFaqs() {
+            const search = document.getElementById('faqSearch').value.toLowerCase();
+            const category = document.getElementById('categoryFilter').value;
+
+            const filtered = allFaqs.filter(faq => {
+                const matchSearch = faq.question.toLowerCase().includes(search) ||
+                                    faq.answer.toLowerCase().includes(search);
+                const matchCategory = !category || faq.category === category;
+                return matchSearch && matchCategory;
+            });
+
+            renderFaqs(filtered);
+        }
+
+        function openFaqModal(faq = null) {
+            document.getElementById('faqModal').classList.add('active');
+            document.getElementById('faqModalTitle').textContent = faq ? 'Edit FAQ' : 'Add New FAQ';
+            document.getElementById('faqSubmitBtn').textContent = faq ? 'Update FAQ' : 'Save FAQ';
+            
+            // Populate category dropdown with actual categories from FAQs
+            populateCategoryDropdown();
+            
+            // Hide custom category input
+            document.getElementById('customCategoryGroup').style.display = 'none';
+            document.getElementById('customCategoryInput').value = '';
+
+            if (faq) {
+                document.getElementById('faqId').value = faq.id;
+                // Set category - if it exists in dropdown, select it
+                const categorySelect = document.getElementById('faqCategory');
+                const categoryExists = Array.from(categorySelect.options).some(opt => opt.value === faq.category);
+                if (categoryExists) {
+                    categorySelect.value = faq.category;
+                } else {
+                    // If category doesn't exist, select custom and fill in
+                    categorySelect.value = '__custom__';
+                    document.getElementById('customCategoryGroup').style.display = 'block';
+                    document.getElementById('customCategoryInput').value = faq.category;
+                }
+                document.getElementById('faqQuestion').value = faq.question;
+                document.getElementById('faqAnswer').value = faq.answer;
+            } else {
+                document.getElementById('faqForm').reset();
+                document.getElementById('faqId').value = '';
+            }
+        }
+        
+        function populateCategoryDropdown() {
+            const categories = [...new Set(allFaqs.map(f => f.category))].sort();
+            const select = document.getElementById('faqCategory');
+            select.innerHTML = '<option value="">Select category</option>' +
+                categories.map(c => `<option value="${c}">${c}</option>`).join('') +
+                '<option value="__custom__">+ Add new category</option>';
+        }
+        
+        function handleCategoryChange() {
+            const select = document.getElementById('faqCategory');
+            const customGroup = document.getElementById('customCategoryGroup');
+            const customInput = document.getElementById('customCategoryInput');
+            
+            if (select.value === '__custom__') {
+                customGroup.style.display = 'block';
+                customInput.required = true;
+                customInput.focus();
+            } else {
+                customGroup.style.display = 'none';
+                customInput.required = false;
+                customInput.value = '';
+            }
+        }
+
+        function closeFaqModal() {
+            document.getElementById('faqModal').classList.remove('active');
+        }
+
+        function editFaq(faq) {
+            openFaqModal(faq);
+        }
+
+        document.getElementById('faqForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const id = document.getElementById('faqId').value;
+            const categorySelect = document.getElementById('faqCategory').value;
+            const customCategory = document.getElementById('customCategoryInput').value.trim();
+            
+            // Use custom category if selected, otherwise use dropdown value
+            let category = categorySelect;
+            if (categorySelect === '__custom__') {
+                if (!customCategory) {
+                    showToast('Please enter a custom category name', 'error');
+                    return;
+                }
+                category = customCategory.toLowerCase().replace(/\s+/g, '_');
+            }
+            
+            const faqData = {
+                question: document.getElementById('faqQuestion').value,
+                answer: document.getElementById('faqAnswer').value,
+                category: category
+            };
+
+            try {
+                const url = id ? `${API_BASE}/faqs/${id}` : `${API_BASE}/faqs`;
+                const method = id ? 'PUT' : 'POST';
+
+                const res = await fetch(url, {
+                    method,
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': `Bearer ${authToken}`
+                    },
+                    body: JSON.stringify(faqData)
+                });
+
+                if (res.status === 401) {
+                    handleUnauthorized();
+                    return;
+                }
+
+                const data = await res.json();
+
+                if (data.success) {
+                    showToast(id ? 'FAQ updated successfully!' : 'FAQ created successfully!', 'success');
+                    showChangesNotice();
+                    closeFaqModal();
+                    loadFaqs();
+                } else {
+                    showToast(data.detail || 'Failed to save FAQ', 'error');
+                }
+            } catch (e) {
+                showToast('Error saving FAQ', 'error');
+            }
+        });
+
+        async function deleteFaq(id) {
+            if (!confirm('Are you sure you want to delete this FAQ?')) return;
+
+            try {
+                const res = await fetch(`${API_BASE}/faqs/${id}`, {
+                    method: 'DELETE',
+                    headers: { 'Authorization': `Bearer ${authToken}` }
+                });
+
+                if (res.status === 401) {
+                    handleUnauthorized();
+                    return;
+                }
+
+                const data = await res.json();
+
+                if (data.success) {
+                    showToast('FAQ deleted successfully!', 'success');
+                    showChangesNotice();
+                    loadFaqs();
+                } else {
+                    showToast(data.detail || 'Failed to delete FAQ', 'error');
+                }
+            } catch (e) {
+                showToast('Error deleting FAQ', 'error');
+            }
+        }
+
+        // Apply Changes - Rebuild RAG Index
+        let hasUnsavedChanges = false;
+        
+        function showChangesNotice() {
+            hasUnsavedChanges = true;
+            document.getElementById('changesNotice').style.display = 'block';
+        }
+        
+        function hideChangesNotice() {
+            hasUnsavedChanges = false;
+            document.getElementById('changesNotice').style.display = 'none';
+        }
+        
+        async function applyChanges() {
+            const btn = document.getElementById('applyChangesBtn');
+            btn.disabled = true;
+            btn.textContent = '⏳ Applying...';
+            
+            try {
+                const res = await fetch(`${API_BASE}/apply-changes`, {
+                    method: 'POST',
+                    headers: { 'Authorization': `Bearer ${authToken}` }
+                });
+
+                if (res.status === 401) {
+                    handleUnauthorized();
+                    return;
+                }
+
+                const data = await res.json();
+
+                if (data.success) {
+                    showToast('✅ Changes applied! AI assistant updated.', 'success');
+                    hideChangesNotice();
+                } else {
+                    showToast(data.detail || 'Failed to apply changes', 'error');
+                }
+            } catch (e) {
+                showToast('Error applying changes', 'error');
+            } finally {
+                btn.disabled = false;
+                btn.textContent = '🔄 Apply Changes';
+            }
+        }
+
+        // Photo Functions
+        async function loadPhotos() {
+            try {
+                const res = await fetch(`${API_BASE}/placements`, {
+                    headers: { 'Authorization': `Bearer ${authToken}` }
+                });
+                
+                if (res.status === 401) {
+                    handleUnauthorized();
+                    return;
+                }
+                
+                const data = await res.json();
+
+                if (data.success) {
+                    allPhotos = data.photos;
+                    renderPhotos(allPhotos);
+                }
+            } catch (e) {
+                console.error('Error loading photos:', e);
+            }
+        }
+
+        function renderPhotos(photos) {
+            const container = document.getElementById('photoGrid');
+
+            if (photos.length === 0) {
+                container.innerHTML = '<p style="text-align:center;color:var(--text-light);padding:40px;grid-column:1/-1;">No photos uploaded yet.</p>';
+                return;
+            }
+            
+            // Check if only 1 photo - disable delete button
+            const isLastPhoto = photos.length === 1;
+
+            container.innerHTML = photos.map(photo => `
+                <div class="photo-card">
+                    <img src="${photo.path}" alt="${photo.name}" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🖼️</text></svg>'">
+                    <div class="photo-card-info">
+                        <div class="photo-card-name">${photo.name}</div>
+                        ${isLastPhoto 
+                            ? '<button class="btn btn-secondary btn-sm btn-block" disabled title="At least one photo must remain">Cannot Delete</button>'
+                            : `<button class="btn btn-danger btn-sm btn-block" onclick="deletePhoto('${photo.name}')">Delete</button>`
+                        }
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        async function uploadPhoto(input) {
+            const file = input.files[0];
+            if (!file) return;
+
+            const formData = new FormData();
+            formData.append('file', file);
+
+            try {
+                showToast('Uploading...', 'success');
+
+                const res = await fetch(`${API_BASE}/placements/upload`, {
+                    method: 'POST',
+                    headers: { 'Authorization': `Bearer ${authToken}` },
+                    body: formData
+                });
+
+                if (res.status === 401) {
+                    handleUnauthorized();
+                    return;
+                }
+
+                const data = await res.json();
+
+                if (data.success) {
+                    showToast('Photo uploaded successfully!', 'success');
+                    loadPhotos();
+                } else {
+                    showToast(data.detail || 'Failed to upload photo', 'error');
+                }
+            } catch (e) {
+                showToast('Error uploading photo', 'error');
+            }
+
+            input.value = '';
+        }
+
+        async function deletePhoto(filename) {
+            if (!confirm('Are you sure you want to delete this photo?')) return;
+
+            try {
+                const res = await fetch(`${API_BASE}/placements/${encodeURIComponent(filename)}`, {
+                    method: 'DELETE',
+                    headers: { 'Authorization': `Bearer ${authToken}` }
+                });
+
+                if (res.status === 401) {
+                    handleUnauthorized();
+                    return;
+                }
+
+                const data = await res.json();
+
+                if (data.success) {
+                    showToast('Photo deleted successfully!', 'success');
+                    loadPhotos();
+                } else {
+                    showToast(data.detail || 'Failed to delete photo', 'error');
+                }
+            } catch (e) {
+                showToast('Error deleting photo', 'error');
+            }
+        }
+
+        // Personality Settings Functions
+        let currentPersonality = 'assistant';
+
+        async function loadPersonalitySetting() {
+            try {
+                const res = await fetch('/api/settings');
+                const data = await res.json();
+                
+                if (data.success) {
+                    currentPersonality = data.personality;
+                    updatePersonalityUI(currentPersonality);
+                }
+            } catch (e) {
+                console.error('Error loading personality setting:', e);
+            }
+        }
+
+        function updatePersonalityUI(personality) {
+            // Update card styles
+            const assistantCard = document.getElementById('card-assistant');
+            const humanCard = document.getElementById('card-human');
+            const generalCard = document.getElementById('card-general');
+            const statusEl = document.getElementById('personalityStatus');
+            
+            // Reset all cards
+            [assistantCard, humanCard, generalCard].forEach(card => {
+                if (card) {
+                    card.style.borderColor = 'var(--border)';
+                    card.style.background = 'transparent';
+                }
+            });
+            
+            // Highlight selected card
+            if (personality === 'assistant') {
+                assistantCard.style.borderColor = 'var(--primary)';
+                assistantCard.style.background = 'rgba(79, 70, 229, 0.05)';
+                statusEl.innerHTML = '🤖 <strong>Current Mode:</strong> Assistant (Professional College Bot)';
+            } else if (personality === 'human') {
+                humanCard.style.borderColor = 'var(--primary)';
+                humanCard.style.background = 'rgba(79, 70, 229, 0.05)';
+                statusEl.innerHTML = '😊 <strong>Current Mode:</strong> Human (Friendly College Bot)';
+            } else if (personality === 'general') {
+                generalCard.style.borderColor = 'var(--primary)';
+                generalCard.style.background = 'rgba(79, 70, 229, 0.05)';
+                statusEl.innerHTML = '💬 <strong>Current Mode:</strong> General Chat (Free AI - No College Data)';
+            }
+        }
+
+        async function setPersonality(personality) {
+            if (personality === currentPersonality) return;
+            
+            try {
+                const res = await fetch('/api/settings/personality', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ personality })
+                });
+                
+                const data = await res.json();
+                
+                if (data.success) {
+                    currentPersonality = personality;
+                    updatePersonalityUI(personality);
+                    
+                    let modeName;
+                    if (personality === 'assistant') modeName = 'Assistant (Professional)';
+                    else if (personality === 'human') modeName = 'Human (Expressive)';
+                    else modeName = 'General Chat (Free AI)';
+                    showToast(`Personality changed to ${modeName}`, 'success');
+                } else {
+                    showToast(data.detail || 'Failed to change personality', 'error');
+                }
+            } catch (e) {
+                showToast('Error changing personality', 'error');
+            }
+        }
+
+        // Utility Functions
+        function showToast(message, type = 'success') {
+            const toast = document.getElementById('toast');
+            toast.textContent = message;
+            toast.className = `toast show ${type}`;
+
+            setTimeout(() => {
+                toast.classList.remove('show');
+            }, 3000);
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,310 @@
+
+"question": "When was Graphic Era Hill University, Bhimtal established?",
+"answer":"The university was established in 2011 as part of the Graphic Era Educational Society's initiative to extend quality professional education to the hilly regions of Uttarakhand.",
+ 
+"question": "Can you provide details about popular programs like B Tech, MBA, BBA, BCA, and B Pharm?",
+"answer":"The B Tech programs focus on core engineering principles along with specialized tracks such as Artificial Intelligence, Cyber Security, and Data Science, often offering Honours specializations. The MBA program is designed to build leadership and management skills through various specializations. BBA and BCA courses emphasize foundational business and computer application skills, while B Pharm provides comprehensive training in pharmaceutical sciences with extensive practical laboratory experience.",
+ 
+"question": "What teaching methodologies are employed at the university?",
+"answer":"The university employs innovative teaching methodologies such as case studies, simulations, hands on laboratory sessions, group discussions, and project based learning. These approaches ensure that students gain both theoretical understanding and practical experience.",
+ 
+"question": "Which entrance exams are accepted for admission?",
+"answer":"The university accepts various entrance exam scores, including the Graphic Era Common Entrance Test (GECET), JEE Main for B Tech programs, and national level management entrance exams like CAT, MAT, XAT, CMAT, and NMAT for MBA admissions. Scores from CUET and other relevant exams are also considered for specific programs.",
+ 
+"question": "What hostel facilities are available?",
+"answer":"The university provides separate hostel accommodations for boys and girls with various room sharing options, including air conditioned and non air conditioned rooms. Hostels are equipped with essential amenities, mess facilities, Wi Fi, and round the clock security measures such as CCTV surveillance.",
+ 
+"question": "What sports facilities are available on campus?",
+"answer":"The campus offers extensive sports facilities including outdoor grounds for football, cricket, vollyball and basketball, as well as indoor facilities for table tennis, badminton, billiards, and chess. Regular tournaments and an active sports committee promote a healthy competitive spirit.",
+ 
+"question": "Which top companies recruit from the university?",
+"answer":"Recruitment drives feature leading companies including Amazon, Uber, TCS, American Express, Google, Microsoft, Deloitte, Accenture, Infosys, Wipro, Capgemini, and many more, reflecting strong industry confidence in the university’s graduates.",
+ 
+"question": "Is placement training provided to students?",
+"answer":"Yes, the university offers comprehensive placement training from the first day. This includes workshops, resume building sessions, mock interviews, and industry specific talks designed to prepare students for competitive recruitment processes.",
+ 
+"question": "Does the university have international collaborations or exchange programs?",
+"answer":"Yes, Graphic Era Hill University has established over 25 international collaborations with institutions in countries such as the USA, UK, France, Germany, and others. These partnerships offer opportunities for internships, exchange programs, dual degree options, and credit transfer programs.",
+ 
+"question": "What are the application fees for admissions?",
+"answer":"The application fee is typically a fixed amount (for example, around ₹1500) for all courses. Detailed information on fee payment methods and deadlines is available on the university’s official admission portal.",
+ 
+"question": "How does the university support start up ventures and entrepreneurship?",
+"answer":"The university fosters innovation through dedicated incubation centers, mentorship programs, and strong industry partnerships. These initiatives provide resources, guidance, and funding opportunities for students and alumni looking to launch their own start up ventures.",
+ 
+"question": "How can prospective students contact the university for more information?",
+"answer":"You can reach the university via toll free numbers (1800 890 6027, 1800 270 1280), WhatsApp (+917088119995 or +918126107820). The campus is located at SatTal Road, Bhimtal, Nainital, Uttarakhand. An online enquiry form is also available on the official website.",
+ 
+"question": "What is the journey of Graphic Era?",
+"answer":"Graphic Era began in 1993 as a computer training center founded by Prof. (Dr.) Kamal Ghanshala. In 1998, it became the Graphic Era Institute of Technology (GEIT), one of the first self-financed institutes in North India. In 2006, five of its programs received NBA accreditation. In 2008, it was granted Deemed-to-be University status by the UGC and became Graphic Era Deemed to be University (GEU). Graphic Era Hill University (GEHU) was established in 2011 to extend quality education to the hill regions. In 2015, GEU earned NAAC ‘A’ grade with a score of 3.23/4, among the highest in the country. In 2018, GEU received regular Deemed University status from the Ministry of Education. In 2020, GEU was ranked among the top 100 universities and engineering institutions by NIRF, and the GEHU Haldwani campus was established. In 2021, Graphic Era Hospital was launched, and GEU secured a top-100 NIRF ranking for the second consecutive year. In 2022, GEU achieved NAAC A+ accreditation, reinforcing its academic excellence. In 2025, GEU was ranked 48 among India’s top universities by NIRF, and in 2024, the Graphic Era Institute of Medical Sciences (GEIMS) was launched. In 2025, Graphic Era continued to uphold its NAAC A+ status, NBA-accredited programs, and AICTE approvals, further strengthening its commitment to quality education, research, and societal impact.",
+ 
+ 
+"question": "Who is Prof. Kamal Ghanshala and what is his contribution to Graphic Era?",
+"answer":"Professor Doctor Kamal Ghanshala is the visionary Founder-President of the prestigious Graphic Era Group of Institutions. A renowned academician and edupreneur, he holds a Doctorate in Computer Science and began his journey by establishing the Graphic Era Computer Centre in 1993. Under his dynamic leadership, it evolved into the Graphic Era Institute of Technology (GEIT) in 1997, attained Deemed-to-be University status as Graphic Era University (GEU) in 2008, and later expanded into the hill regions with the establishment of Graphic Era Hill University (GEHU) in 2011. His contributions span curriculum innovation, cutting-edge infrastructure development, international collaborations, and quality-focused expansion. Remarkably, he continues to personally teach every Computer Science student at Graphic Era, particularly in the critical subjects of Data Structures and Algorithms—ensuring academic excellence and a deep-rooted culture of technical competence.A prolific researcher, his work has been recognized globally and presented at prestigious forums in the United States, Canada, the United Kingdom (London), France (Paris), Germany, Denmark, South Africa (Johannesburg), Turkey, Croatia, and Thailand. Among numerous accolades, he was conferred the Visionary Edupreneur of India Award, 2017 by the Hon’ble Former President of India, Mr. Pranab Mukherjee, for his outstanding contributions to quality technical and professional education and research in India. His unwavering commitment to academic rigor, innovation, and societal impact continues to drive Graphic Era’s rise as one of India’s top-tier educational institutions.",
+ 
+"question": "What is the difference between Graphic Era Deemed to be University and Graphic Era Hill University?",
+"answer":"Graphic Era Deemed to be University (GEU) was granted Deemed status in 2008 and is located in Dehradun. It focuses on engineering, management, and research. Graphic Era Hill University (GEHU), established in 2011, is a private state university with campuses in Dehradun, Bhimtal, and Haldwani, focusing on regional accessibility and diverse academic programs. Both institutions operate under the Graphic Era group but have different legal statuses and campus locations.",
+ 
+"question": "What is Graphic Era Institute of Medical Sciences (GEIMS) and what makes it a premier medical institution?",
+"answer": "Graphic Era Institute of Medical Sciences (GEIMS) is a premier medical college under the Graphic Era Group, dedicated to delivering world-class healthcare education and services. It houses the state-of-the-art Graphic Era Hospital, an 850-bedded facility equipped with advanced medical technology. With over 30 years of legacy in quality education, GEIMS adopts tech-enabled, modern teaching methodologies. It supports national healthcare initiatives like Ayushman Bharat and serves a large geographical area from Yamunotri to Dehradun. GEIMS is empaneled under major government health schemes like CGHS, ECHS, SGHS Golden Cards, and ESI, and collaborates with key insurance providers. The institute offers regular outreach programs in remote areas and military bases. It also provides assured paid internships and offers courses in Paramedical Sciences, B.Sc Nursing, and Hospital Administration, aiming to shape ethical and skilled healthcare professionals for the future.",
+ 
+ 
+"question": "In which cities are the campuses of Graphic Era Hill University located?",
+"answer": "Graphic Era Hill University has campuses in Dehradun, Bhimtal, and Haldwani."
+ 
+"question": "How does Graphic Era Hill University rank in terms of digital initiatives?",
+"answer": "Graphic Era Hill University is recognized among the top 10 universities in digital initiatives by MHRD."
+ 
+"question": "In how many countries have MBAs from Graphic Era Hill University traveled for global and career immersion programs?",
+"answer": "MBAs from Graphic Era Hill University have traveled to over 10 countries for global and career immersion programs."
+ 
+"question": "What is the mission of Graphic Era Hill University?",
+"answer": "Graphic Era Hill University aims to foster academic excellence, nurture creativity, address global challenges, and equip students with the skills and knowledge to shape the future."
+ 
+"question": "What are the key highlights and facilities of the Dehradun Campus of Graphic Era Hill University?",
+"answer": "The Dehradun Campus of Graphic Era Hill University is located in the cantonment area, along the Rajaji National Park, offering a panoramic view of the Shivalik Hills. The campus provides a perfect ambience for academic pursuits, mental growth, and holistic development. It is fully equipped with state-of-the-art computer centres and labs, temperature regulated classrooms, lecture theatres, seminar halls, accommodation, medical facilities, and even its own radio station. The campus has been acclaimed and honored at various national and international events for its excellence in education and infrastructure.",
+ 
+"question": "What are the key highlights and facilities of the Bhimtal Campus of Graphic Era Hill University?",
+"answer": "The Bhimtal Campus of Graphic Era Hill University is located at the Kumaon foothills of the outer Himalayas, amidst lush green tree cover along the Sattal Road. It has been recognized as the 11th most beautiful campus in the country by Storypick. Designed as a self-contained community, it includes academic and research facilities, laboratories, libraries, administrative offices, student accommodation, an Open Air Theatre, cafeteria, play fields, library, computer centers, and fully equipped lecture theatres. The campus is well connected by road and rail to all major cities, with the nearest railway station being Kathgodam, 27 kilometers away. Bhimtal is approximately 300 kilometers from Delhi, 16 kilometers from Nainital, and 310 kilometers from Dehradun.",
+ 
+"question": "What are the key features and offerings of the Haldwani Campus of Graphic Era Hill University?",
+"answer": "The Haldwani Campus of Graphic Era Hill University, known as the mesmerizing gateway to Kumaon, is situated in the vibrant and largest commercial market of the state. It offers a beautiful fusion of the bliss of Mother Nature and the vibrant energy of an emerging city. The campus provides courses across a range of disciplines including engineering, science, and technology, business and management studies, hospitality, and humanities. It welcomes ambitious and enthusiastic students who are looking for a serene yet engaging college experience. The campus is committed to offering an educative and pedagogic experience of a lifetime.",
+ 
+"question": "What courses are offered at Graphic Era Hill University Bhimtal campus?",
+"answer": "Graphic Era Hill University Bhimtal campus offers a diverse range of courses. In engineering, it offers Diploma in Computer Science Engineering, Diploma in Civil Engineering, Diploma in Mechanical Engineering, B Tech in Computer Science and Engineering, B Tech CSE Honours with specialisations in Cyber Security and Artificial Intelligence and Machine Learning, B Tech in Civil Engineering, Civil Engineering Honours with specialisations in Environmental Engineering and Geoinformatics, B Tech in Electronics and Communication Engineering, ECE Honours with specialisations in Drone Technology and VLSI, and B Tech in Mechanical Engineering Honours with specialisations in Electric Vehicle and Mechatronics. Computer application and IT programs include BCA, BCA Honours, BCA Industry Integrated, BCA Honours in Artificial Intelligence and Data Science, BCA Honours in Cybersecurity, B Sc Honours in Information Technology, B Sc IT Industry Integrated, B Sc Honours in Computer Science, MCA, and MCA with specialisation in Artificial Intelligence and Data Science. Business courses include Bachelor of Business Administration, BBA in International Finance and Accounting with ACCA, and MBA. Commerce programs include B Com Honours, B Com Honours in International Finance and Accounting with ACCA UK, and B Com in International Finance and Accounting with ACCA UK. Health sciences include B Sc Nursing and B Pharma. Engineering postgraduates can pursue M Tech in Computer Science and Engineering or Mechanical Engineering in Electric Vehicle with relevant eligibility",
+ 
+"question": "Who is the President of Graphic Era Hill University?",
+"answer": "The President of Graphic Era Hill University is Professor Doctor Kamal Ghanshala.",
+ 
+"question": "Who is the President of Graphic Era Hill University Dehradun?",
+"answer": "The President of Graphic Era Hill University Dehradun is Professor Doctor Kamal Ghanshala.",
+ 
+"question": "Who is the President of Graphic Era Hill University Haldwani campus?",
+"answer": "The President of Graphic Era Hill University Haldwani campus is Professor Doctor Kamal Ghanshala, who holds a Doctor of Philosophy in Computer Science and is the Founder of the Graphic Era Group.",
+ 
+"question": "Who is the Director of Graphic Era Hill University Haldwani campus?",
+"answer": "The Director of Graphic Era Hill University Haldwani campus is Professor Doctor M. C. Lohani.",
+Q1: What is the Graphic Era Group of Institutions, and what is its core mission and vision in the field of education?
+A: The Graphic Era Group of Institutions is a premier educational conglomerate founded in 1993 by Prof. (Dr.) Kamal Ghanshala. With a humble beginning as a computer training center, the group has evolved into a multi-disciplinary network of institutions. It offers programs in engineering, management, law, medical sciences, humanities, and school education. The core mission is to deliver world-class education with a strong emphasis on innovation, research, and holistic development. Its vision revolves around nurturing global citizens equipped with the skills and values needed to excel in a rapidly evolving world.
+ 
+Q2: Is Graphic Era Hill University affiliated with Graphic Era Deemed to be University, Dehradun?
+Graphic Era Hill University (GEHU) and Graphic Era Deemed to be University (GEU), Dehradun, are two distinct institutions established under different legal frameworks. While both are governed by the Graphic Era Educational Society, GEU was granted "Deemed to be University" status under Section 3 of the UGC Act, 1956, in 2008, whereas GEHU was established in 2011 under Uttarakhand State Act No. 12 and recognized under Section 2(f) of the UGC Act. Despite their shared origin, they operate independently with separate academic programs and administrative structures. Hence, GEHU is not affiliated with GEU in terms of university recognition.
+Q3: What are the major institutions under the Graphic Era umbrella, and how do they collectively contribute to a diversified academic ecosystem?
+A: The major institutions under the Graphic Era Group include:
+1. Graphic Era (Deemed to be University) – Dehradun
+2. Graphic Era Hill University (GEHU) – with campuses in Dehradun, Bhimtal, and Haldwani
+3. Graphic Era Institute of Medical Sciences (GEIMS) – Dehradun
+4. Graphic Era Global School – Dehradun
+Together, these institutions offer a broad spectrum of programs spanning engineering, management, medical sciences, law, and school education. This diversity promotes interdisciplinary learning and research, fostering a well-rounded academic environment.
+Q4: What features make the GEHU Bhimtal campus stand out among other university campuses in India?
+A: The GEHU Bhimtal campus is renowned for its scenic beauty and innovative infrastructure. It is ranked among the top 20 most beautiful college campuses in India by StoryPick. Built in just six months amidst the serene hills and lakes of Uttarakhand, it offers a vibrant learning atmosphere coupled with modern facilities. The campus integrates natural aesthetics with digital advancements, making it a preferred choice for students seeking a blend of nature and technology.
+ 
+Q5: Who is the founder of Graphic Era, and how has his vision shaped the university’s growth and ethos over the decades?
+A: Prof. (Dr.) Kamal Ghanshala is the founder of Graphic Era. His visionary leadership and passion for education have been instrumental in transforming a modest training center into a world-class university system. His emphasis on innovation, hands-on learning, and student mentorship continues to shape the institution’s values and academic priorities.
+Q6: Who currently serves as the Chancellor of GEU, and what is their background and contribution to the institution?
+A: Dr. Vijay Kumar Saraswat, a Padma Bhushan awardee and former Director General of DRDO, serves as the Chancellor of GEU. His illustrious career in defense research and academic policymaking brings immense credibility and strategic guidance to the university’s growth.
+ 
+Q7: How does Graphic Era’s Incubation Centre support entrepreneurial initiatives, and what success stories have emerged from it?
+A: The Incubation Centre at Graphic Era provides infrastructure, mentorship, and seed funding to aspiring entrepreneurs. More than 100 startups have been launched by students, showcasing the university’s commitment to fostering innovation and job creation.
+ 
+Q8: What is the application process for admission to Graphic Era University and Hill University, and what are the key deadlines and requirements for different courses?
+A: Students can apply through the official websites (www.geu.ac.in / www.gehu.ac.in) using online admission forms. Admissions are merit-based and may include entrance exams, interviews, or both, depending on the program. Important deadlines are updated annually on the websites.
+Q10: What academic programs are offered at the Graphic Era Institute of Medical Sciences (GEIMS), and how do they align with current healthcare needs?
+A: GEIMS offers MBBS, Nursing, Paramedical, and Allied Health Sciences programs. These are designed to meet contemporary healthcare demands through practical training, research exposure, and clinical excellence.
+Q11: What are the key features of GEIMS that distinguish it as a center of medical education and training in India?
+A: GEIMS boasts advanced simulation labs, collaborations with AIIMS faculty, modern hospital facilities, and a research-oriented curriculum. These features make it a sought-after institution for aspiring healthcare professionals.
+ 
+Q12: What distinguishes Graphic Era University in the realm of higher education, and how does Prof. Dr. Kamal Ghanshala's leadership contribute to its unique academic environment?
+A: Unlike many university leaders who distance themselves from direct classroom engagement, Dr. Ghanshala remains actively involved in the academic development of his students. He personally teaches foundational subjects such as C programming and data structures, ensuring that students receive instruction grounded in both theoretical knowledge and practical application. Beyond the classroom, he mentors students participating in coding contests and real-world projects, fostering a culture of innovation and critical thinking.
+ 
+"question": "What is Graphic Era Hill University, Bhimtal?",
+"answer":"Graphic Era Hill University, located in Bhimtal, Uttarakhand, is a premier institution known for its quality education, innovative teaching methodologies, and cutting-edge technology integration. It is recognized as Uttrakhand's First AI Enabled Campus, where artificial intelligence is leveraged across academic programs and research initiatives to prepare students for a technology driven future. The GEHU Bhimtal campus is renowned for its scenic beauty and innovative infrastructure. It is ranked among the top 20 most beautiful college campuses in India by StoryPick. Built in just six months amidst the serene hills and lakes of Uttarakhand, it offers a vibrant learning atmosphere coupled with modern facilities. The campus integrates natural aesthetics with digital advancements, making it a preferred choice for students seeking a blend of nature and technology."
+ 
+"question": "Is there a provision for provisional admission?",
+"answer":"Yes, provisional admission is offered for candidates awaiting final examination results. This provision allows students taking admission in undergraduate course on the basis of 10 th result fulfilling the basic criteria to secure a seat while students taking admission in postgraduation courses the require to fill a undertaking mentioning the minimum criteria required to take admission, with final admission confirmed after verification of original documents.",
+ 
+"question": "Are there education loan options or tie ups available for students?",
+"answer":"Students have access to education loans from nationalized and private banks, with several financial institutions and platforms recognizing the university. These loans offer competitive interest rates and flexible repayment options.The documents required by the students from the university end are provided accordingly",
+ 
+ 
+"question": "What transportation and connectivity options are available for day scholars in bhimtal campus?",
+"answer":"The university offers dedicated college bus services from nainital, bhowali, naukuchiyatal, haldwani as well as city bus facilities from Bhimtal and nearby areas, ensuring convenient and reliable transportation for day scholars.",
+Accreditations and Differentiations Between the Universities
+1. First of all, both the universities come under Single Entity which is known as Graphic Era Group of Institutions or Graphic Era Education Society.
+2. Secondly, Both the universities are UGC and MHRD approved.
+● GEU is recognized by the Central Government (Central Private Deemed University).
+● GEHU is recognized by the State Government (State Private University)
+The accreditation associated with GEU :
+● UGC: UGC stands for University Grants Commission, which is a statutory body responsible for coordinating, determining, and maintaining standards of university education in India as it includes Funding, Accreditation, Curriculum Development, Quality Control, Research promotion.
+● MHRD: It stands for Ministry of Human Resource and Development,
+The Department of Higher Education, MHRD, is responsible for the overall development of the basic infrastructure of the Higher Education sector, both in terms of policy and planning.                          
+● AICTE: It stands for All India Council For Technical Education which is a statutory body that is responsible for the development and regulation of technical Education of India. It also plays a vital role in the functioning of universities that offer technical education.
+● NBA: It stands for the National Board of Accreditation, which is an autonomous body of AICTE and is responsible for the accreditation of technical programs offered by universities and colleges in India.
+● NAAC: It stands for National Assessment and Accreditation Council again an autonomous body which is responsible for the accreditation of technical programs offered by the universities and colleges.
+ 
+● NIRF: It stands for National Institutional Ranking Framework is an initiative by the ministry of education, Govt of India, to rank higher education institutions in India based on various parameters.
+● The First & Only University in top 30 universities of INDIA to be awarded PLATINUM (Engineering) & Diamond (Management) ratings by QS- I. GAUGE 360 perspective award which Is an autonomous body of NIRF.
+● GEU is also approved by the Indian Medical Association and Nursing Council of India.
+● TBI is known as Technology Business Incubator which is given to us Directly by the Department of Science & Technology, GOVT OF INDIA.
+A student Rajat Jain has invented the smallest ECG machine which has been appreciated by our honorable Prime Minister “Shri.Narendra Modiji”.Company name is Sun fox Technologies.
+The accreditation associated with GEHU:
+● UGC: UGC stands for University Grants Commission, which is a statutory body responsible for coordinating, determining, and maintaining standards of university education in India as it includes Funding, Accreditation, Curriculum Development, Quality Control, Research promotion.
+● MHRD: It stands for Ministry of Human Resource and Development,
+The Department of Higher Education, MHRD, is responsible for the overall development of the basic infrastructure of the Higher Education sector, both in terms of policy and planning.  
+● Pharmacy is approved by the Pharmacy Council of India (PCI).
+● Law is approved by the Bar Council of India (BCI).
+● For Agriculture Indian Council of Agricultural Research (ICAR) approval is required which is under pipeline i.e. under process.
+● There are 2 additional benefits associated with Graphic Era Hill University all campus
+1. State Concession is a special fee concession for candidates from hilly region of India, where direct 25% Concession is provided to students carrying either domicile certificate or students completing 10th & 12th from their respective states are eligible for this concession.(Nepal students also included)
+2. Diversity Program Scholarship (DPS) is a special fee concession applicable to candidates from All India Category (non-hilly region).
+● All modern courses like Animation & Gaming, Fashion Designing, Product Design,User Experience and Interaction Design,Visual Arts, Law, Agriculture, etc. are available in GEHU.
+ 
+1. How do I apply for admission to GEHU Bhimtal?
+You can apply online by visiting the official website at www.gehu.ac.in or by contacting the campus directly at 8126107820. Alternatively, you can also apply offline by visiting the campus. The process begins with filling out the application form, uploading the necessary documents, and paying an application fee of ₹1,500.
+The student can proceed with the admission process for undergraduate program based on their 10th result, but they should fulfill the admission percentage criteria as referred to in the 10th grade. Additionally, they must submit an undertaking stating that they will achieve the minimum percentage in the 12th grade required for admission to their chosen course.
+Students can also proceed on the basis of 12 th result by fulfilling the minimum percentage criteria for taking admission for certain course.
+Students those who wants to persue post graduation course should proceed on the basis of their undergraduation degree if the student have his/her final marksheet they can directly proceed for admission after filling application form but for those who are still waiting for their final marksheets can proceed for partial admission by providing an undertaking form stating that they will achieve the minimum percentage in graduation required for admission to their chosen course.
+There are scholarships and different concessions provided to students taking admission in graphic era hill university for ug and pg courses
+
+1. 25% State Concession
+2. Academic scholarships.
+3. 5% yearly scholarship
+4. Skill Development Scholarship (for Dehradun Campus only in btech cse course)
+5. Regional diversity discount( for all india candidates)
+6. 10% Girl Concession
+7. 10% Loyalty Concession
+8. 10% Single Parent Discount(covid case)
+9. 7.5% - Current Student and 5% - Alumni on NET TUITION FEE
+10. 5% Army Concession
+11. 5% Single Parent
+12. 5% Sports Concession
+The following are the scholarship provide in the Graphic Era Deemed to be University:
+1. Academic scholarships.
+2. 5% yearly scholarship
+3. 10% Girl Concession
+4. 10% Loyalty Concession
+5. 10% Single Parent Discount (covid case)
+6. Sibling concessions- 7.5% - Current Student and 5% - Alumni
+7. 5% Army Concession
+8. 5% Single Parent
+9. 5% Sports Concession
+Students who are not eligible for academic scholarships based on their 12th or graduation percentage can still apply for scholarships on the All India Tuition Fees. The university offers a scholarship exam called the Graphic Era Common Entrance Test (GECET), through which students have the opportunity to qualify for various scholarship slabs as listed below
+Score
+Scholarship on Tuition Fee
+95 and above
+100%
+90-95
+50%
+80-90
+30%
+70-80
+20%
+ 
+Different course offered in graphic era hill university bhimtal campus are
+• B.Tech Computer Science Engineering
+• B.Tech CSE (Hons.) with specialization in Artificial Intelligence and Machine Learning
+• B.Tech CSE (Hons.) with specialization in Cyber Security
+• Diploma in Computer Science & Engineering
+• Bachelor of Computer Applications
+• Bachelor of Computer Applications (AI & DS)
+• Master of Computer Applications
+•  B.Tech Mechanical Engineering (Hons.) with specialization in Electric Vehicle
+• B.Tech Mechanical Engineering (Hons.) with specialization in Mechatronics
+• B.Tech Mechanical Engineering
+• Diploma in Mechanical Engineering
+• B.Tech Electronics & Communication Engg. (Hons.) with specialization in Drone Technology
+• B.Tech Electronics & Communication Engineering (Hons.) with specialization in VLSI
+• B.Tech in Electronics and Communication Engineering
+• B.Tech Civil Engineering (Hons.) with specialization in Environmental Engineering
+• B.Tech Civil Engineering (Hons.) with specialization in Geoinformatics
+• B.Tech in Civil Engineering
+• Bachelor of Business Administration
+• Bachelor of Commerce (H)
+• B.Com. (Hons) International Finance and Accounting with ACCA, UK
+• Master of Business Administration
+• B.Sc Nursing
+• Bachelor of Pharmacy
+ 
+Fee structure of different courses in bhimtal campus
+• Approx. fee structure in bhimtal campus for btech computer science and engineering course with included specializations available is yearly- 2 lac 20 thousand for state candidate and 2 lac 54 thousand for all india candidate
+• Approx. fee structure in bhimtal campus for btech other branch is yearly- 1 lac 72 thousand for state candidate and 2 lac 15 thousand for all india candidate
+• Approx. fee structure in bhimtal campus for bsc nursing is yearly- 1 lac 42 thousand for state candidate and 1 lac 61 thousand for all india candidate
+• Approx. fee structure in bhimtal campus for bcom(h) is yearly- 1 lac 26 thousand for state candidate and 1 lac 38 thousand for all india candidate
+• Approx. fee structure in bhimtal campus for diploma is yearly- 84 thousand
+• Approx. fee structure in bhimtal campus for bba is yearly- 1 lac 28 thousand for state candidate and 1 lac 39 thousand for all india candidate
+• Approx. fee structure in bhimtal campus for bpharm is yearly- 1 lac 33 thousand for state candidate and 1 lac 52 thousand for all india candidate
+• Approx. fee structure in bhimtal campus for bca is yearly- 1 lac 18 thousand for state candidate and 1 lac 38 thousand for all india candidate the students not having maths as a subject in 12 have to pay additional rupees 5000 per semester for two semesters as bridge course fee.
+• Approx. fee structure in bhimtal campus for bca artificial intelligence and data science is yearly- 1 lac 26 thousand for state candidate and 1 lac 47 thousand for all india candidate the students not having maths as a subject in 12 have to pay additional rupees 5000 per semester for two semesters as bridge course fee.
+• Approx. fee structure in bhimtal campus for mca is yearly- 1 lac 40 thousand for state candidate and 1 lac 46 thousand for all india candidate
+• Approx. fee structure in bhimtal campus for mba is yearly- 2 lac 19 thousand for state candidate and 2 lac 47thousand for all india candidate
+
+
+Hostel Fee And other charges related to Hostel
+
+The hostels are common for Graphic Era Hill University Dehradun campus and graphic Era Deemed to be university.
+
+Hostel Types & Facilities:
+• Room Options: Single, Double, and Triple sharing
+• AC/Non-AC: Available in both AC and Non-AC configurations
+• Amenities:
+a. Furnished rooms with bed, study table, chair, wardrobe
+b. Wi-Fi connectivity
+c. 24/7 power backup and water supply
+d. Mess and dining facilities
+e. Common rooms and reading halls ​
+• Additional Charges:
+a. Hostel Security Deposit: ₹10,000 and ₹5000 accordingly (once the course is completed the amount is refundable)
+b. Laundry Fees included in hostel charges.
+c. One time consumable & utility charges- ​₹9000
+ 
+
+• Graphic Era Hill University’s Haldwani campus operates as a day boarding campus, and residential/hostel facilities are not available at this location. However, the university provides convenient bus transportation for students commuting from various areas, including:
+a. Rudrapur
+b. Kiccha
+c. Ramnagar
+d. Bazpur
+e. Sitarganj
+f. Kaladhungi
+g. Dineshpur
+h. Gularbhoj
+i. And multiple points within Haldwani city
+This ensures safe and accessible daily travel for students from nearby towns and cities.
+ 
+
+Fee structure of different courses in haldwani campus
+• Approx. fee structure in haldwani campus for btech computer science and engineering course with included specializations available is yearly- 2 lac 77 thousand for state candidate and 3 lac 27 thousand for all india candidate candidate (Rupees 14500/- per semester regional diversity discount is also provided)
+• Approx. fee structure in haldwani campus for bcom(h) is yearly- 1 lac 18 thousand for state candidate and 1 lac 34 thousand for all india candidate(Rupees 7000/- per semester regional diversity discount is also provided)
+• Approx. fee structure in haldwani campus for bba is yearly- 1 lac 33 thousand for state candidate and 1 lac 67 thousand for all india candidate(Rupees 12500/- per semester regional diversity discount is also provided)
+• Approx. fee structure in haldwani campus for bachelor in hotel management is yearly- 1 lac 18 thousand for state candidate and 1 lac 61 thousand for all india candidate(Rupees 7000/- per semester regional diversity discount is also provided)
+• Approx. fee structure in haldwani campus for bca is yearly- 1 lac 18 thousand for state candidate and 1 lac 37 thousand for all india candidate (Rupees 5000/- per semester regional diversity discount is also provided)
+the students not having maths as a subject in 12 have to pay additional rupees 5000 per semester for two semesters as bridge course fee.
+
+• Approx. fee structure in haldwani campus for bca artificial intelligence and data science is yearly- 1 lac 26 thousand for state candidate and 1 lac 46 thousand for all india candidate (Rupees 5000/- per semester regional diversity discount is also provided)
+the students not having maths as a subject in 12 have to pay additional rupees 5000 per semester for two semesters as bridge course fee.
+
+• Approx. fee structure in haldwani campus for mca is yearly- 1 lac 42 thousand for state candidate and 1 lac 64 thousand for all india candidate. (Rupees 7500/- per semester regional diversity discount is also provided)
+• Approx. fee structure in haldwani campus for mba is yearly- 2 lac 36 thousand for state candidate and 2 lac 70 thousand for all india candidate(Rupees 15500/- per semester regional diversity discount is also provided)
+• Approx. fee structure in haldwani campus for cchm is yearly- 76 thousand for state candidate and 86 thousand for all india candidate. (Rupees 3500/- per semester regional diversity discount is also provided)
+• Approx. fee structure in haldwani campus for Bachelor of Arts in Journalism and Mass Communication is yearly- 1 lac 15 thousand for state candidate and 1 lac 33 thousand for all india candidate(Rupees 5000/- per semester regional diversity discount is also provided)
+• Approx. fee structure in haldwani campus for bsc animation and gaming is yearly- 1 lac 40 thousand for state candidate and 1 lac 53 thousand for all india candidate(Rupees 11500/- per semester regional diversity discount is also provided)
+• Approx. fee structure in haldwani campus for master in computer science and engineering is yearly- 1 lac 47 thousand for state candidate and 1 lac 69 thousand for all india candidate(Rupees 8500/- per semester regional diversity discount is also provided)
+ 
+Special Admission Opportunity – 100% Tuition Fee Waiver!
+Available exclusively at our Bhimtal Campus
+Are you looking to build a career in Computer Science, Civil, or Mechanical Engineering?
+Here’s your chance to study at ZERO tuition cost!
+✅ 100% Tuition Fee Waiver for eligible candidates enrolling in the Diploma Program
+✅ Available Branches:
+• Diploma in Computer Science
+• Diploma in Civil Engineering
+• Diploma in Mechanical Engineering
+🎯 Eligibility Criteria:
+Students who have scored more than 60% in their qualifying examination are eligible to avail this full tuition fee waiver.
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 

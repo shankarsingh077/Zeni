@@ -1,0 +1,159 @@
+{
+  "campus": "bhimtal",
+  "programs": [
+    {
+      "id": "btech-cse",
+      "name": "B.Tech Computer Science & Engineering",
+      "aliases": ["btech cse", "b.tech cse", "btech computer science", "computer science engineering", "cse", "b tech cse"],
+      "url": "https://gehu.ac.in/fee/btl/btech-cse",
+      "category": "engineering"
+    },
+    {
+      "id": "btech-civil",
+      "name": "B.Tech Civil Engineering",
+      "aliases": ["btech civil", "b.tech civil", "civil engineering", "civil"],
+      "url": "https://gehu.ac.in/fee/btl/btech-civil",
+      "category": "engineering"
+    },
+    {
+      "id": "btech-ece",
+      "name": "B.Tech Electronics and Communication Engineering",
+      "aliases": ["btech ece", "b.tech ece", "electronics", "ece", "electronics and communication"],
+      "url": "https://gehu.ac.in/fee/btl/btech-ece",
+      "category": "engineering"
+    },
+    {
+      "id": "btech-me",
+      "name": "B.Tech Mechanical Engineering",
+      "aliases": ["btech me", "b.tech me", "mechanical engineering", "mechanical", "mech"],
+      "url": "https://gehu.ac.in/fee/btl/btech-me",
+      "category": "engineering"
+    },
+    {
+      "id": "mba",
+      "name": "Master of Business Administration (MBA)",
+      "aliases": ["mba", "master of business administration", "business administration"],
+      "url": "https://gehu.ac.in/fee/btl/mba",
+      "category": "management"
+    },
+    {
+      "id": "bsc-nursing",
+      "name": "Bachelor of Science in Nursing (B.Sc Nursing)",
+      "aliases": ["bsc nursing", "b.sc nursing", "nursing", "bsc nurse"],
+      "url": "https://gehu.ac.in/fee/btl/bsc-nursing",
+      "category": "nursing"
+    },
+    {
+      "id": "bba",
+      "name": "Bachelor of Business Administration (BBA)",
+      "aliases": ["bba", "bachelor of business administration", "business administration bachelor"],
+      "url": "https://gehu.ac.in/fee/btl/bba",
+      "category": "management"
+    },
+    {
+      "id": "bba-hons",
+      "name": "Bachelor of Business Administration (Hons.)",
+      "aliases": ["bba hons", "bba honours", "bba honors"],
+      "url": "https://gehu.ac.in/fee/btl/bba-hons",
+      "category": "management"
+    },
+    {
+      "id": "bba-hons-ifaa",
+      "name": "BBA (Hons.) in International Finance And Accounting With ACCA",
+      "aliases": ["bba hons ifaa", "bba acca", "bba international finance", "bba ifaa"],
+      "url": "https://gehu.ac.in/fee/btl/bba-hons-ifaa",
+      "category": "management"
+    },
+    {
+      "id": "bcom-ifaa",
+      "name": "Bachelor of Commerce (International Finance and Accounting with ACCA, UK)",
+      "aliases": ["bcom ifaa", "b.com ifaa", "bcom acca", "bcom international finance"],
+      "url": "https://gehu.ac.in/fee/btl/bcom-ifaa",
+      "category": "commerce"
+    },
+    {
+      "id": "bcom",
+      "name": "Bachelor of Commerce (B.Com.)",
+      "aliases": ["bcom", "b.com", "b com", "bachelor of commerce", "commerce"],
+      "url": "https://gehu.ac.in/fee/btl/bcom",
+      "category": "commerce"
+    },
+    {
+      "id": "bcom-hons",
+      "name": "Bachelor of Commerce (Hons.)",
+      "aliases": ["bcom hons", "b.com hons", "bcom honours", "bcom honors"],
+      "url": "https://gehu.ac.in/fee/btl/bcom-hons",
+      "category": "commerce"
+    },
+    {
+      "id": "mtech-me",
+      "name": "M.Tech Mechanical Engineering",
+      "aliases": ["mtech me", "m.tech me", "mtech mechanical", "master of technology mechanical"],
+      "url": "https://gehu.ac.in/fee/btl/mtech-me",
+      "category": "engineering"
+    },
+    {
+      "id": "diploma-cse",
+      "name": "Diploma in Computer Science & Engineering",
+      "aliases": ["diploma cse", "diploma computer science", "polytechnic cse"],
+      "url": "https://gehu.ac.in/fee/btl/diploma-cse",
+      "category": "diploma"
+    },
+    {
+      "id": "diploma-me",
+      "name": "Diploma in Mechanical Engineering",
+      "aliases": ["diploma me", "diploma mechanical", "polytechnic mechanical"],
+      "url": "https://gehu.ac.in/fee/btl/diploma-me",
+      "category": "diploma"
+    },
+    {
+      "id": "diploma-civil",
+      "name": "Diploma in Civil Engineering",
+      "aliases": ["diploma civil", "polytechnic civil"],
+      "url": "https://gehu.ac.in/fee/btl/diploma-civil",
+      "category": "diploma"
+    },
+    {
+      "id": "bpharm",
+      "name": "Bachelor of Pharmacy (B.Pharm)",
+      "aliases": ["bpharm", "b.pharm", "b pharm", "pharmacy", "bachelor of pharmacy"],
+      "url": "https://gehu.ac.in/fee/btl/bpharm",
+      "category": "pharmacy"
+    },
+    {
+      "id": "bca-ai-ds",
+      "name": "Bachelor of Computer Applications (Hons.) with Artificial Intelligence and Data Science",
+      "aliases": ["bca ai ds", "bca ai", "bca data science", "bca hons ai", "bca artificial intelligence"],
+      "url": "https://gehu.ac.in/fee/btl/bca-ai-ds",
+      "category": "computer_applications"
+    },
+    {
+      "id": "bsc-it",
+      "name": "Bachelor of Science in Information Technology (B.Sc IT)",
+      "aliases": ["bsc it", "b.sc it", "bsc information technology", "information technology"],
+      "url": "https://gehu.ac.in/fee/btl/bsc-it",
+      "category": "computer_applications"
+    },
+    {
+      "id": "bca",
+      "name": "Bachelor of Computer Applications (BCA)",
+      "aliases": ["bca", "bachelor of computer applications", "computer applications"],
+      "url": "https://gehu.ac.in/fee/btl/bca",
+      "category": "computer_applications"
+    },
+    {
+      "id": "mca-ai-ds",
+      "name": "Master of Computer Applications in AI and DS",
+      "aliases": ["mca ai ds", "mca ai", "mca data science", "mca artificial intelligence"],
+      "url": "https://gehu.ac.in/fee/btl/mca-ai-ds",
+      "category": "computer_applications"
+    },
+    {
+      "id": "mca",
+      "name": "Master of Computer Applications (MCA)",
+      "aliases": ["mca", "master of computer applications"],
+      "url": "https://gehu.ac.in/fee/btl/mca",
+      "category": "computer_applications"
+    }
+  ]
+}
