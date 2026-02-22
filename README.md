@@ -25,11 +25,15 @@
 
 ## 🎬 Demo
 
-<!-- VIDEO EMBED — GitHub-hosted video (auto-plays in README) -->
-<!-- STEP: Go to any GitHub Issue in this repo → paste the .MOV file → copy the CDN link → replace the src below -->
-https://github.com/shankarsingh077/Zeni/assets/YOUR_ASSET_ID/IMG_7323.MOV
+<div align="center">
 
-> 📽️ **[Watch full demo video](Preview/IMG_7323.MOV)** — Zeni talking, lip-sync animation, and robot control in real time
+<video src="https://github.com/user-attachments/assets/bcbd070c-0c0b-4c71-b2bf-8c3994b13170" controls autoplay loop muted width="100%">
+  <a href="https://github.com/user-attachments/assets/bcbd070c-0c0b-4c71-b2bf-8c3994b13170">▶️ Watch Zeni Demo Video</a>
+</video>
+
+*Zeni talking, lip-sync animation, bilingual responses, and robot control — live at GEHU Bhimtal*
+
+</div>
 
 ---
 
