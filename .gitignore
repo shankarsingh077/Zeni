@@ -64,6 +64,9 @@ base.apk
 character video/
 "character video"/
 
+# Preview folder — product demo media (committed intentionally)
+!Preview/
+!Preview/*
 
 # ── 🤖 Decompiled / Third-Party App Code ─────────────────────
 robot_app_decompiled/

@@ -15,6 +15,22 @@
 
 </div>
 
+<div align="center">
+  <img src="Preview/IMG_8018.jpg" alt="Zeni Robot — Physical AI receptionist at GEHU Bhimtal with Lottie avatar on Android tablet" width="420"/>
+  <br/>
+  <sub>Zeni deployed at Graphic Era Hill University, Bhimtal Campus</sub>
+</div>
+
+---
+
+## 🎬 Demo
+
+<!-- VIDEO EMBED — GitHub-hosted video (auto-plays in README) -->
+<!-- STEP: Go to any GitHub Issue in this repo → paste the .MOV file → copy the CDN link → replace the src below -->
+https://github.com/shankarsingh077/Zeni/assets/YOUR_ASSET_ID/IMG_7323.MOV
+
+> 📽️ **[Watch full demo video](Preview/IMG_7323.MOV)** — Zeni talking, lip-sync animation, and robot control in real time
+
 ---
 
 ## 📖 What Is Zeni?
